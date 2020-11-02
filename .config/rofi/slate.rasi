@@ -1,18 +1,18 @@
 * {
-  background-color: #282C33;
-  border-color: #2e343f;
+  background-color: transparent;
   text-color: #8ca0aa;
-  spacing: 0;
-  width: 512px;
+  spacing: 2;
+  width: 300px;
 }
 
 inputbar {
-  border: 0 0 1px 0;
+  padding: 1px 2px;
+  border: 0 0 20px 0;
   children: [prompt,entry];
 }
 
 prompt {
-  padding: 16px;
+  padding: 10px;
   border: 0 1px 0 0;
 }
 
@@ -20,22 +20,22 @@ textbox {
   background-color: #2e343f;
   border: 0 0 1px 0;
   border-color: #282C33;
-  padding: 8px 16px;
+  padding: 4px 8px;
 }
 
 entry {
-  padding: 16px;
+  padding: 6px;
 }
 
 listview {
-  cycle: false;
-  margin: 0 0 -1px 0;
+  cycle: true;
+  margin: 0 0 8px 0;
   scrollbar: false;
 }
 
 element {
-  border: 0 0 1px 0;
-  padding: 16px;
+  border: 0 0 0 0;
+  padding: 8px;
 }
 
 element selected {
