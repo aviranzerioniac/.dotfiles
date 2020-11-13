@@ -17,3 +17,6 @@ I do have a barebones xfce install, which might need to be cleaned in the future
 
 ## ToDo
 
+-> Self-configure Emacs with lsp servers for frequently used languages
+-> Hopefully something like a dashboard
+-> Configure orgmode
