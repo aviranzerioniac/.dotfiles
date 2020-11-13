@@ -1,0 +1,89 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/bagofnothing/Development/python/" . "progs/")
+ ("/" . "home/")
+ ("/home/bagofnothing/Development/gitlab/aviranzerioniac.gitlab.io backup/" . "_posts/")
+ ("/home/bagofnothing/Development/github/" . "java-testing-example/")
+ ("/home/bagofnothing/Development/gitlab/" . "aviranzerioniac.gitlab.io backup/")
+ ("/home/" . "bagofnothing/")
+ ("/home/bagofnothing/" . ".emacs.d/")
+ ("/home/bagofnothing/Development/Uni/python/" . "progs/")
+ ("/home/bagofnothing/Development/Uni/" . "python/")
+ ("/home/bagofnothing/Development/" . "orgs:md/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/bagofnothing/.emacs.d/"
+ "/home/bagofnothing/Development/orgs:md/"
+ "/home/bagofnothing/Development/python/progs/"
+ "/home/bagofnothing/Development/gitlab/aviranzerioniac.gitlab.io backup/"
+ "/home/bagofnothing/.config/qtile/"
+ "/home/bagofnothing/.config/"
+ "/home/bagofnothing/"
+ "/home/bagofnothing/Development/Uni/python/progs/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "init.el"
+ "randomNotes.org"
+ "hello.py"
+ "ifStat.py"
+ "Projects.md"
+ "config.py"
+ "pavucontrol.ini"
+ "0.00 Start.md"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/bagofnothing/.emacs.d/" (24494 31469 668244 224000) "eln-cache/" "projectile-bookmarks.eld" ".lsp-session-v1" "url/" "ido.last" "init.el" "./" "auto-save-list/" ".cache/" "init.el~" ".dap-breakpoints" "elpa/" "projectile.cache" "ido.last~" "recentf" "transient/" "../")
+
+ ("/home/bagofnothing/" (24494 30354 808216 766000) ".anaconda/" ".gtkrc-2.0" ".local/" ".ngrok2/" ".xsession-errors" ".continuum/" ".java/" ".pylint.d/" ".bashrc" ".dmrc" "MEGAsync Downloads/" ".eclipse/" "Development/" ".npm/" "rclone.conf" ".Xauthority" ".bash_profile" ".MakeMKV/" ".xinitrc~" "lastPlay.xspf" ".empty/" ".condarc" ".bash_logout" ".jupyter/" ".themes/" "randomNotes.org~" ".eclipse-java-config/" ".dbus/" ".electron/" ".anydesk/" ".emacs.d/" ".swt/" "./" "Calibre Library/" ".vscode-insiders/" ".emacs~" ".config/" ".ssh/" ".profile" ".xinitrc" ".cache/" ".ipython/" ".xbindkeysrc" ".ipynb_checkpoints/" ".w3m/" ".python_history-06622.tmp" ".putty/" ".esd_auth" "Documents/" ".tragtor/" ".keras/" ".gnome/" ".mozilla/" "Pictures/" ".spacemacs" ".ICEauthority" ".electron-gyp/" ".bash_history" ".zoom/" ".gradle/" "Video/" ".gitconfig" ".yarnrc" ".wget-hsts" ".conda/" ".pki/" ".tooling/" ".fehbg" ".icons/" ".cinnamon/" ".jd/" ".bashrc~" ".p7zip" "AnyDesk/" ".gnome2/" "Music/" ".install4j" "Downloads/" ".uselessThings/" ".gnupg/" "../" ".python_history" ".nv/" ".m2/" "Desktop/" "0.00 Start.tex~" ".profile~" ".optimus" ".yarn/" ".xsession-errors.old")
+
+ ("/home/bagofnothing/Development/python/progs/" (24494 28225 918164 269000) "fwLoops.py" ".empty/" "#ifStat.py#" ".git/" "./" "hello.py" "ifStat.py" ".projectile" "numbers.py" "../")
+
+ ("/home/bagofnothing/Development/python/" (24463 24664 431715 768000) "pythontutorial/" "progs/" "./" "notes.md" "Python-programming-exercises/" "A Beginners Guide to Python 3 Programming - John Hunt - 978-3-030-20290-3.pdf" "../")
+
+ ("/home/bagofnothing/Development/" (24494 26566 64790 34000) "emacs-native-comp-git/" "Uni/" "./" "build/" "orgs:md/" "gitlab/" "eclipse/" "github/" "../" "python/")
+
+ ("/home/bagofnothing/Development/github/java-testing-example/" (24248 17867 529301 412000) ".settings/" "example/" "selenium/" "bank-ocr/" ".gitignore" "greeting/" ".git/" "README.md" "./" "pom.xml" ".project" "unusual-spending/" "example-cucumber/" "gilded-rose/" "unusual-spending-vendor/" "../" "game-of-life/")
+
+ ("/home/bagofnothing//" (24494 25820 834771 669000) ".anaconda/" ".gtkrc-2.0" ".local/" ".ngrok2/" ".xsession-errors" ".continuum/" ".java/" ".pylint.d/" ".bashrc" ".dmrc" "MEGAsync Downloads/" ".eclipse/" "Development/" ".npm/" "rclone.conf" ".Xauthority" ".bash_profile" ".MakeMKV/" ".xinitrc~" "lastPlay.xspf" ".empty/" ".condarc" ".bash_logout" ".jupyter/" ".themes/" "randomNotes.org~" ".eclipse-java-config/" ".dbus/" ".electron/" ".anydesk/" ".emacs.d/" ".swt/" "./" "Calibre Library/" ".vscode-insiders/" ".emacs~" ".config/" ".ssh/" ".profile" ".xinitrc" ".cache/" ".ipython/" ".xbindkeysrc" ".ipynb_checkpoints/" ".w3m/" ".python_history-06622.tmp" ".putty/" ".esd_auth" "Documents/" ".tragtor/" ".keras/" ".gnome/" ".mozilla/" "Pictures/" ".spacemacs" ".ICEauthority" ".electron-gyp/" ".bash_history" ".zoom/" ".gradle/" "Video/" ".gitconfig" ".yarnrc" ".wget-hsts" ".conda/" ".pki/" ".tooling/" ".fehbg" ".icons/" ".cinnamon/" ".jd/" ".bashrc~" ".p7zip" "AnyDesk/" ".gnome2/" "Music/" ".install4j" "Downloads/" ".uselessThings/" ".gnupg/" "../" ".python_history" ".nv/" ".m2/" "Desktop/" "0.00 Start.tex~" ".profile~" ".optimus" ".yarn/" ".xsession-errors.old")
+
+ ("/home/bagofnothing//Development/" (24483 3493 428046 839000) "emacs-native-comp-git/" "Uni/" "./" "build/" "orgs:md/" "gitlab/" "eclipse/" "github/" "../")
+
+ ("/home/bagofnothing//Development/gitlab/" (24483 64495 574384 199000) "jekyll-theme-chirpy-master/" "aviranzerioniac.gitlab.io backup/" "./" "jekyll-theme-chirpy-master.zip" "2020-05-30-C-Bootcamp.md" "../")
+
+ ("/home/bagofnothing/Development/gitlab/aviranzerioniac.gitlab.io backup/tools/" (24483 61629 790980 480000) "run.sh" "pv.sh" "init.sh" "./" "build.sh" "test.sh" "js-compress.sh" "../")
+
+ ("/home/bagofnothing/Development/gitlab/aviranzerioniac.gitlab.io backup/_posts/" (24483 61624 10980 341000) "2020-03-20-What-Is-A-Computer.md" "2019-08-08-text-and-typography.md" "2020-03-18-First-Post.md" "2019-08-08-write-a-new-post.md" "./" "2019-08-09-getting-started.md" "2020-03-19-The-Beginnings.md" "2019-08-11-customize-the-favicon.md" "2020-03-21-Starting-With-Rclone-Arch.md" "2020-05-30-C-Bootcamp.md" "Framework.md" "../" "2020-03-22-Being-Great.md")
+
+ ("/home/bagofnothing/Development/github/awesome-piracy/" (24453 54873 880111 66000) "Wordcloud.jpg" "contributing.md" ".git/" "readme.html" "pastebin.url" "./" "LICENSE" "readme.md" "create-bookmarks.sh" "bookmarks.html" "code-of-conduct.md" ".gitattributes" "../" "wordcloud.png")
+
+ ("/home/bagofnothing/Development/gitlab/aviranzerioniac.gitlab.io backup/" (24483 65196 777734 766000) "_config.yml" "_site/" "tags/" "sitemap.xml" "bibi/" "categories/" "tabs/" "Gemfile" "assets/" "404.html" "_includes/" ".git/" "README.md" "./" "feed.xml" "LICENSE" "_data/" ".gitlab-ci.yml" "_posts/" "_layouts/" "robots.txt" "_scripts/" "index.html" "../" "tools/" "Gemfile.lock")
+
+ ("/home/bagofnothing/Development/gitlab/" (24483 64495 574384 199000) "jekyll-theme-chirpy-master/" "aviranzerioniac.gitlab.io backup/" "./" "jekyll-theme-chirpy-master.zip" "2020-05-30-C-Bootcamp.md" "../")
+
+ ("/home/bagofnothing/Development/github/" (24481 40255 624181 568000) "awesome-piracy/" "linuxKernel/" "worg/" "./" "java-testing-example/" "DWM/" "../")
+
+ ("/home/bagofnothing/Development/orgs:md/" (24494 24150 701397 138000) "Projects.md" "randomNotes.org~" "./" "TheBridgetoLucyDunne.org" "randomNotes.org" ".projectile" "#randomNotes.org#" "unixLinuxHandbook.md" "../" "TheBridgetoLucyDunne.org~" "randomNotesAlgo.md")
+
+ ("/home/bagofnothing/.config/qtile/" (24494 23032 951369 616000) "config.pyc" "./" "config.py~" "__pycache__/" "config.py" "autostart.sh" "../")
+
+ ("/home/" (23812 57373 417732 327000) "lost+found/" "./" "bagofnothing/" "../")
+
+ ("/home/bagofnothing/.config/" (24493 52158 789118 621000) "orage/" "pulse/" "systemd/" "libreoffice/" "rofi/" "i3/" "ghb/" "configstore/" "mimeapps.list" "chromium/" "user-dirs.locale" "wal/" "binstar/" "cmst/" "optimus-manager/" "Unknown Organization/" "xfburn/" "bspwm/" "monitors-v1-backup.xml" "zoomus.conf" "kdeglobals" "QtProject.conf" "ibus/" "monitors.xml~" "pikaur.conf" "./" "Thunar/" "dconf/" "user-dirs.dirs" "emacs/" "menus/" "Mousepad/" "procps/" "autostart/" "dolphinrc" "baloofileinformationrc" "enchant/" "onlyoffice/" "neofetch/" "gtk-4.0/" "flacon/" "gtk-2.0/" "pavucontrol.ini" "gtk-3.0/" "rclone/" "spyder-py3/" "picom/" "rclone-browser/" "linear/" "Kitware/" "zathura/" "jgit/" "glib-2.0/" "discord/" "session/" "pamac/" "google-chrome/" "Notepadqq/" "GIMP/" "vlc/" "monitors.xml" "../" "nemo/" "ristretto/" "vivaldi/" "qtile/" "calibre/" "marlin/" "xfce4/")
+
+ ("/home/bagofnothing/Development/Uni/python/progs/" (24481 24917 101124 962000) "fwLoops.py" ".empty/" "#ifStat.py#" ".git/" "#hello.py#" "./" "hello.py" "ifStat.py" "numbers.py" "../")
+
+ ("/home/bagofnothing/Development/Uni/python/" (24463 24664 431715 768000) "pythontutorial/" "progs/" "./" "notes.md" "Python-programming-exercises/" "A Beginners Guide to Python 3 Programming - John Hunt - 978-3-030-20290-3.pdf" "../")
+
+ ("/home/bagofnothing/Development/Uni/" (24480 19534 481295 592000) "EKI/" "./" "missing-semester/" "../" "python/")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

@@ -7,8 +7,9 @@
 [[ $- != *i* ]] && return
 
 PS1='[\W]=> '
+
 export PATH="/home/bagofnothing/.gem/ruby/2.7.0/bin"
-PATH=$PATH:/sbin
+export PATH="/usr/bin/"
 
 ### Alias for Tasks
 
@@ -32,10 +33,11 @@ alias cleanup='sudo pacman -Rns $(pacman -Qtdq)' # remove orphaned packages
 
 ## Miscl Settings
 
-alias de='setxkbmap de' # keyboard layout if it goes back
+alias de='setxkbmap de' # keyboard layout to de
+alias caps='setxkbmap -layout de -option ctrl:nocaps' # Caps Lock is Control on a keyboard
 alias night='redshift -O 4500K' # redshift manual night mode
 alias day='redshift -O 7000K' # redshift manual day
-alias config='emacs ~/.config/qtile/config.py' # enables readily editing wm config
+alias config='emacsclient -t ~/.config/qtile/config.py' # enables readily editing wm config
 
 alias py='cd Development/python/progs' # going to my python folder
 
@@ -80,5 +82,6 @@ alias newtag='git tag -a'
 alias ssn="systemctl poweroff"
 alias reboot="systemctl reboot"
 
-# Emacs cmdline
-alias sumacs="sudo emacs -nw"
+# Emacs in terminal
+alias sumacs="sudo emacsclient -t"
+alias macs="emacsclient -t"

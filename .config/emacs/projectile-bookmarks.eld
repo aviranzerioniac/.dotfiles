@@ -1,0 +1,1 @@
+("~/Development/github/.dotfiles/" "~/Development/python/progs/" "~/Development/orgs:md/" "~/Development/github/java-testing-example/" "~/Development/github/awesome-piracy/" "~/Development/gitlab/aviranzerioniac.gitlab.io backup/_posts/")
