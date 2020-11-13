@@ -6,7 +6,7 @@ This is a backup of my dots. As much as possible, the configuration will always 
 
 I have finally made a jump to qtile and seems like I'll be staying here for some time.
 I do have a barebones xfce install, which might need to be cleaned in the future.
-I was using either ![Spacemacs](https://www.spacemacs.org) or ![Doom](https://github.com/hlissner/doom-emacs) for quite some time. Further changes will be focused on configuring my emacs configuration to the best possible config.
+I was using either [Spacemacs](https://www.spacemacs.org) or [Doom](https://github.com/hlissner/doom-emacs) for quite some time. Further changes will be focused on configuring my emacs configuration to the best possible config.
 
 ## Screenshots
 
