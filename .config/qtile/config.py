@@ -1,10 +1,12 @@
 ########################################
-## Imported and modified qtile config. #
-##                                     #
-##                                     #
-## 2020 @ Lokesh Dhakal                #
-##                                     #
-##                                     #
+##                                    ##
+##                                    ##
+##          qtile config              ##
+##                                    ##
+##                                    ##
+## 2020 @ Lokesh Dhakal               ##
+##                                    ##
+##                                    ##
 ########################################
 
 from typing import List  # noqa: F401
@@ -86,10 +88,10 @@ keys = [
 ]
 
 
-group_names = [("Default", {'layout': 'floating'}),
+group_names = [("Default", {'layout': 'bsp'}),
                ("Browser", {'layout': 'max'}),
-               ("Emacs", {'layout': 'bsp'}),
-               ("Prod", {'layout': 'monadtall'}),
+               ("Emacs", {'layout': 'monadtall'}),
+               ("Prod", {'layout': 'bsp'}),
                ("Dump", {'layout': 'max'}),
                ("Music", {'layout': 'monadtall'}),
                ("Omega", {'layout': 'floating'})]
@@ -106,9 +108,10 @@ layout_theme = {"border_width": 4,
                 }
 
 layouts = [
-    layout.Max(),
+    layout.Max(margin=1),
     layout.Bsp(margin=3, border_focus='#3ef7eb'),
     layout.MonadTall(margin=3, border_focus='#268c56', ratio=0.4),
+    layout.Floating(),
 
     # Try more layouts by unleashing below layouts.
     # layout.Columns(border_focus_stack='#d75f5f', margin=3),
@@ -120,8 +123,6 @@ layouts = [
     # layout.TreeTab(),
     # layout.VerticalTile(),
     # layout.Zoomy(),
-    # layout.Floating(),
-
 ]
 
 widget_defaults = dict(

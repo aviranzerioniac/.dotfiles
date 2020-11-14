@@ -12,10 +12,10 @@ I was using either [Spacemacs](https://www.spacemacs.org) or [Doom](https://gith
 
 ![Browser](https://i.imgur.com/JVL9alD.png "Vivaldi")
 
-![Prod](https://i.imgur.com/TO4sRVY.png "Zathura for scripts + emacs for notes")
+![Prod](https://i.imgur.com/TO4sRVY.png "Zathura (scripts/books) + emacs (notes)")
 
-![Emacs](https://i.imgur.com/pTsaUfK.png "Pretty Barebones emacs")
+![Emacs](https://i.imgur.com/pTsaUfK.png "Emacs Dashboard")
 
-![Posframe](https://i.imgur.com/xM26pwh.png "Monadtall ~~Copying~~ Programming")
+![Normal](https://i.imgur.com/xM26pwh.png "~~Copying~~ Programming")
 
 ![Empty](https://i.imgur.com/OSFwbS1.png "Empty Screen")
