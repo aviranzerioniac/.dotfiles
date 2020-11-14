@@ -1,5 +1,10 @@
-;;;; Custom emacs config
+;;; package --- sphaghetti user config emacs
+;;; Commentary: A custom config for emacs is like using super glue to join modules from
+;; places, that don't actually work together. But there is fun to be had in
+;; that.
+;;
 
+;;;; Custom emacs config
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
