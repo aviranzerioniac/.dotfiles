@@ -1,0 +1,6 @@
+License is hearby granted to use the given programs, configs, files, without any restrictions whatsoever. Except ONE. 
+While using anything or any part for the purpose of financial gains, please do make sure that other licenses are duly respected.
+Most parts glued are OPEN & under either GPL or MIT. But some might not be. It won't be an issue for most cases, but make sure to keep a copy 
+of both licenses, just in case.
+
+@@ Lokesh Dhakal 2020  
