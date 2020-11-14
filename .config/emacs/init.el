@@ -21,7 +21,7 @@
      ("MELPA Stable" . "http://stable.melpa.org/packages/")
      ("gnu" . "https://elpa.gnu.org/packages/")))
  '(package-selected-packages
-   '(magit all-the-icons-ibuffer all-the-icons-ivy-rich all-the-icons-dired all-the-icons-ivy doom-modeline use-package-ensure-system-package company-lsp lsp-haskell lsp-java eglot lsp-latex dap-mode dashboard org-edit-latex markdown-mode org-mode doom-themes python-mode counsel ivy-posframe)))
+   '(magit all-the-icons-ivy-rich doom-modeline company-lsp eglot dashboard org-edit-latex org-mode doom-themes python-mode counsel ivy-posframe)))
 
 ;; User
 (setq user-full-name "Lokesh Dhakal"
@@ -54,28 +54,30 @@
 ;; ;; ;; Loading Modules ;; ;; ;;
 
 ;; LSP for emacs & its servers
-(require 'lsp-mode)
-(lsp-mode 1)
-(add-hook 'prog-mode-hook #'lsp)
-;; (require 'lsp-ui)
+
+;;(require 'lsp-mode)
+;;(lsp-mode 1)
+;; (add-hook 'prog-mode-hook #'lsp) ;; general hook for langs lsp
+
+(require 'lsp-ui)
 (require 'dap-mode)
 (dap-mode 1)
+
 ;; eglot C++/C
 (require 'eglot)
 (add-to-list 'eglot-server-programs '((c++-mode c-mode) "clangd"))
 (add-hook 'c-mode-hook 'eglot-ensure)
 (add-hook 'c++-mode-hook 'eglot-ensure)
 
-;; Java 
+;; Java
 (require 'lsp-java)
 (add-hook 'java-mode-hook #'lsp)
+(add-hook 'java-mode-hook 'flycheck-mode)
 
 ;; Python
-(use-package lsp-pyright
-  :ensure t
-  :hook (python-mode . (lambda ()
-                          (require 'lsp-pyright)
-                          (lsp))))  ; or lsp-deferred
+(require 'lsp-python-ms)
+(setq lsp-python-ms-auto-install-server t)
+(add-hook 'python-mode-hook #'lsp) ; or lsp-deferred
 
 ;; Haskell
 (require 'lsp-haskell)
@@ -83,7 +85,6 @@
 (add-hook 'haskell-mode-hook #'lsp)
 (add-hook 'haskell-literate-mode-hook #'lsp)
 
-(require 'use-package)
 (require 'company)
 (add-hook 'after-init-hook 'global-company-mode)
  
@@ -124,10 +125,8 @@
 
 (require 'dashboard)
 (dashboard-setup-startup-hook)
-
 ;; Dashboard in frames with emacsclient -c
 (setq initial-buffer-choice (lambda () (get-buffer "*dashboard*")))
-
 ;; Dashboard title
 (setq dashboard-banner-logo-title "")
 ;; Set the banner
@@ -137,20 +136,16 @@
 ;; 'logo which displays an alternative emacs logo
 ;; 1, 2 or 3 which displays one of the text banners
 ;; "path/to/your/image.png" or "path/to/your/text.txt" which displays whatever image/text you would prefer
-
 ;; Content is not centered by default. To center, set
 (setq dashboard-center-content t)
-
 ;; To disable shortcut "jump" indicators for each section, set
 (setq dashboard-show-shortcuts nil)
-
 ;; Dashboard Items
 (setq dashboard-items '((recents  . 5)
                       ;; (bookmarks . 5)
                        (projects . 5)
                        (agenda . 5)))
-                       ;; (registers . 5)))
-		       
+                       ;; (registers . 5)))       
 ;; Packages loaded $ init time
 (setq dashboard-set-init-info t)
 ;; A random footer
@@ -161,13 +156,8 @@
 (flycheck-mode 1)
 
 ;; magit
-(use-package magit
-  :ensure t
-  :config
- ;; (setq magit-push-always-verify nil)
-  (setq git-commit-summary-max-length 50)
-  :bind
-  ("M-g" . magit-status))
+(require 'magit)
+(global-set-key (kbd "C-x g") 'magit-status)
 
 ;; DOOM modeline
 (require 'doom-modeline)

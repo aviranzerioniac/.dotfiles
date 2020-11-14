@@ -2,47 +2,84 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/bagofnothing/.config/" . "emacs/")
  ("/home/bagofnothing/Development/python/" . "progs/")
  ("/" . "home/")
  ("/home/bagofnothing/Development/gitlab/aviranzerioniac.gitlab.io backup/" . "_posts/")
- ("/home/bagofnothing/Development/github/" . "java-testing-example/")
+ ("/home/bagofnothing/Development/github/" . ".dotfiles/")
  ("/home/bagofnothing/Development/gitlab/" . "aviranzerioniac.gitlab.io backup/")
  ("/home/" . "bagofnothing/")
  ("/home/bagofnothing/" . ".emacs.d/")
  ("/home/bagofnothing/Development/Uni/python/" . "progs/")
  ("/home/bagofnothing/Development/Uni/" . "python/")
- ("/home/bagofnothing/Development/" . "orgs:md/")
+ ("/home/bagofnothing/Development/" . "github/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/bagofnothing/"
+ "/home/bagofnothing/.config/emacs/"
+ "/home/bagofnothing/Development/github/.dotfiles/"
  "/home/bagofnothing/.emacs.d/"
  "/home/bagofnothing/Development/orgs:md/"
  "/home/bagofnothing/Development/python/progs/"
  "/home/bagofnothing/Development/gitlab/aviranzerioniac.gitlab.io backup/"
  "/home/bagofnothing/.config/qtile/"
  "/home/bagofnothing/.config/"
- "/home/bagofnothing/"
  "/home/bagofnothing/Development/Uni/python/progs/"
 )
 
 ;; ----- ido-work-file-list -----
 (
+ "keybind.py"
  "init.el"
+ "LICENSE.org"
+ "README.md"
  "randomNotes.org"
  "hello.py"
  "ifStat.py"
  "Projects.md"
  "config.py"
  "pavucontrol.ini"
- "0.00 Start.md"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/bagofnothing/.emacs.d/" (24494 31469 668244 224000) "eln-cache/" "projectile-bookmarks.eld" ".lsp-session-v1" "url/" "ido.last" "init.el" "./" "auto-save-list/" ".cache/" "init.el~" ".dap-breakpoints" "elpa/" "projectile.cache" "ido.last~" "recentf" "transient/" "../")
+ ("/home/bagofnothing/.config/emacs/" (24495 55714 381067 829000) "eln-cache/" "projectile-bookmarks.eld" ".lsp-session-v1" "url/" "ido.last" "init.el" "./" "auto-save-list/" ".cache/" "init.el~" ".dap-breakpoints" "elpa/" "projectile.cache" "ido.last~" "recentf" "transient/" "../")
 
- ("/home/bagofnothing/" (24494 30354 808216 766000) ".anaconda/" ".gtkrc-2.0" ".local/" ".ngrok2/" ".xsession-errors" ".continuum/" ".java/" ".pylint.d/" ".bashrc" ".dmrc" "MEGAsync Downloads/" ".eclipse/" "Development/" ".npm/" "rclone.conf" ".Xauthority" ".bash_profile" ".MakeMKV/" ".xinitrc~" "lastPlay.xspf" ".empty/" ".condarc" ".bash_logout" ".jupyter/" ".themes/" "randomNotes.org~" ".eclipse-java-config/" ".dbus/" ".electron/" ".anydesk/" ".emacs.d/" ".swt/" "./" "Calibre Library/" ".vscode-insiders/" ".emacs~" ".config/" ".ssh/" ".profile" ".xinitrc" ".cache/" ".ipython/" ".xbindkeysrc" ".ipynb_checkpoints/" ".w3m/" ".python_history-06622.tmp" ".putty/" ".esd_auth" "Documents/" ".tragtor/" ".keras/" ".gnome/" ".mozilla/" "Pictures/" ".spacemacs" ".ICEauthority" ".electron-gyp/" ".bash_history" ".zoom/" ".gradle/" "Video/" ".gitconfig" ".yarnrc" ".wget-hsts" ".conda/" ".pki/" ".tooling/" ".fehbg" ".icons/" ".cinnamon/" ".jd/" ".bashrc~" ".p7zip" "AnyDesk/" ".gnome2/" "Music/" ".install4j" "Downloads/" ".uselessThings/" ".gnupg/" "../" ".python_history" ".nv/" ".m2/" "Desktop/" "0.00 Start.tex~" ".profile~" ".optimus" ".yarn/" ".xsession-errors.old")
+ ("/home/bagofnothing/" (24495 55359 761065 504000) ".anaconda/" ".gtkrc-2.0" ".local/" ".ngrok2/" ".xsession-errors" ".continuum/" ".java/" ".pylint.d/" ".bashrc" ".dmrc" "keybind.py" "MEGAsync Downloads/" ".eclipse/" "Development/" ".npm/" "rclone.conf" ".Xauthority" ".bash_profile" ".MakeMKV/" "lastPlay.xspf" ".condarc" ".bash_logout" ".jupyter/" ".themes/" ".eclipse-java-config/" ".dbus/" ".electron/" ".anydesk/" ".swt/" "./" "Calibre Library/" ".config/" ".ssh/" ".profile" ".xinitrc" ".cache/" ".ipython/" ".xbindkeysrc" ".ipynb_checkpoints/" ".w3m/" ".python_history-06622.tmp" ".putty/" ".esd_auth" "Documents/" ".tragtor/" ".keras/" ".gnome/" ".mozilla/" "Pictures/" ".spacemacs" ".ICEauthority" ".electron-gyp/" ".bash_history" ".zoom/" ".gradle/" "Video/" ".gitconfig" ".yarnrc" ".wget-hsts" ".conda/" ".pki/" ".tooling/" ".fehbg" ".icons/" ".cinnamon/" ".jd/" ".p7zip" "AnyDesk/" ".gnome2/" "Music/" ".install4j" "Downloads/" ".uselessThings/" ".gnupg/" "../" ".python_history" ".nv/" ".m2/" "Desktop/" "keybind.py~" ".gem/" ".optimus" ".yarn/" ".xsession-errors.old")
+
+ ("/home/bagofnothing/Development/github/.dotfiles/" (24495 52470 137713 230000) ".bashrc" ".git/" "README.md" "./" "LICENSE" ".config/" ".xinitrc" ".xbindkeysrc" "pkglist.txt" "../")
+
+ ("/home/bagofnothing/Development/github/.dotfiles/.config/" (24495 48886 7689 736000) "rofi/" "i3/" "doom/" "awesome/" "bspwm/" "./" "emacs/" "picom/" "zathura/" "sxhkd/" "../" "qtile/")
+
+ ("/home/bagofnothing/Development/github/.dotfiles/.config/emacs/" (24495 50024 867697 203000) "eln-cache/" "projectile-bookmarks.eld" ".lsp-session-v1" "url/" "ido.last" "init.el" "./" "auto-save-list/" ".cache/" "init.el~" ".dap-breakpoints" "elpa/" "projectile.cache" "ido.last~" "recentf" "transient/" "../")
+
+ ("/home/bagofnothing/Development/github/.dotfiles/.config/emacs/.cache/" (24494 39369 151772 459000) "lsp/" "./" "../")
+
+ ("/home/bagofnothing/Development/github/.dotfiles/.config/emacs/.cache/lsp/" (24494 39369 151772 459000) "./" "npm/" "../")
+
+ ("/home/bagofnothing/Development/github/.dotfiles/.config/emacs/.cache/lsp/npm/" (24494 39369 321772 463000) "pyright/" "./" "../" "bash-language-server/")
+
+ ("/home/bagofnothing/Development/github/.dotfiles/.config/emacs/.cache/lsp/npm/bash-language-server/" (24494 39369 321772 463000) "bin/" "./" "lib/" "../")
+
+ ("/home/bagofnothing/Development/github/.dotfiles/.config/emacs/.cache/lsp/npm/bash-language-server/lib/" (24494 39369 151772 459000) "./" "node_modules/" "../")
+
+ ("/home/bagofnothing/Development/github/.dotfiles/.config/emacs/.cache/lsp/npm/bash-language-server/lib/node_modules/" (24494 39369 151772 459000) "./" "../" "bash-language-server/")
+
+ ("/home/bagofnothing/Development/github/.dotfiles/.config/emacs/.cache/lsp/npm/bash-language-server/lib/node_modules/bash-language-server/" (24494 39369 155105 793000) "bin/" "tree-sitter-bash.wasm" "README.md" "./" "src/" "CHANGELOG.md" "out/" "node_modules/" "package.json" "../" "tsconfig.json")
+
+ ("/home/bagofnothing/Development/github/.dotfiles/.config/emacs/.cache/lsp/npm/bash-language-server/lib/node_modules/bash-language-server/node_modules/" (24494 39369 321772 463000) "psl/" "wrappy/" "left-pad/" "stealthy-require/" "fs.realpath/" "request-promise-core/" "whatwg-url/" "core-util-is/" "vscode-languageserver/" "performance-now/" "delayed-stream/" "whatwg-mimetype/" "bcrypt-pbkdf/" "esutils/" "tough-cookie/" "uri-js/" "vscode-jsonrpc/" "abab/" "combined-stream/" "sshpk/" "html-encoding-sniffer/" "ws/" "punycode/" "safer-buffer/" "jsprim/" "assert-plus/" "getpass/" "array-equal/" "prelude-ls/" "vscode-languageserver-textdocument/" "minimatch/" "verror/" "turndown/" "domexception/" ".bin/" "source-map/" "mime-db/" "concat-map/" "fuzzy-search/" "word-wrap/" "./" "async-limiter/" "ajv/" "cssom/" "lodash/" "levn/" "balanced-match/" "caseless/" "ecc-jsbn/" "fast-levenshtein/" "iconv-lite/" "pn/" "json-schema-traverse/" "safe-buffer/" "once/" "fast-json-stable-stringify/" "sax/" "aws-sign2/" "oauth-sign/" "mime-types/" "request/" "urijs/" "browser-process-hrtime/" "webidl-conversions/" "inflight/" "vscode-languageserver-protocol/" "jsdom/" "whatwg-encoding/" "path-is-absolute/" "glob/" "w3c-hr-time/" "deep-is/" "type-check/" "asynckit/" "isstream/" "tunnel-agent/" "dashdash/" "acorn/" "escodegen/" "is-typedarray/" "nwsapi/" "json-schema/" "fast-deep-equal/" "lodash.sortby/" "extsprintf/" "acorn-walk/" "optionator/" "jsbn/" "json-stringify-safe/" "request-promise-native/" "xml-name-validator/" "forever-agent/" "har-schema/" "asn1/" "estraverse/" "har-validator/" "acorn-globals/" "tweetnacl/" "aws4/" "inherits/" "qs/" "vscode-languageserver-types/" "../" "esprima/" "extend/" "tr46/" "web-tree-sitter/" "symbol-tree/" "cssstyle/" "parse5/" "http-signature/" "uuid/" "data-urls/" "form-data/" "brace-expansion/")
+
+ ("/home/bagofnothing/Development/github/.dotfiles/.config/emacs/.cache/lsp/npm/bash-language-server/lib/node_modules/bash-language-server/node_modules/vscode-languageserver-protocol/" (24494 39369 278439 129000) "License.txt" "README.md" "./" "lib/" "thirdpartynotices.txt" ".eslintignore" "package.json" "../")
+
+ ("/home/bagofnothing/Development/github/.dotfiles/.config/emacs/.cache/lsp/npm/bash-language-server/lib/node_modules/bash-language-server/node_modules/vscode-languageserver-protocol/lib/" (24494 39369 278439 129000) "protocol.declaration.d.ts" "protocol.sematicTokens.proposed.js" "protocol.typeDefinition.js" "protocol.implementation.d.ts" "messages.d.ts" "protocol.implementation.js" "protocol.progress.js" "protocol.configuration.js" "protocol.configuration.d.ts" "protocol.selectionRange.js" "main.js" "protocol.foldingRange.js" "protocol.progress.d.ts" "./" "main.d.ts" "protocol.d.ts" "protocol.selectionRange.d.ts" "protocol.callHierarchy.proposed.d.ts" "protocol.typeDefinition.d.ts" "protocol.js" "protocol.foldingRange.d.ts" "protocol.declaration.js" "protocol.workspaceFolders.js" "messages.js" "protocol.sematicTokens.proposed.d.ts" "../" "protocol.workspaceFolders.d.ts" "protocol.colorProvider.js" "protocol.callHierarchy.proposed.js" "protocol.colorProvider.d.ts" "utils/")
+
+ ("/home/bagofnothing/Development/github/" (24494 36480 515034 507000) "awesome-piracy/" "linuxKernel/" "worg/" "./" "java-testing-example/" "DWM/" ".dotfiles/" "../")
+
+ ("/home/bagofnothing/.config/" (24494 39288 231770 463000) "orage/" "pulse/" "systemd/" "libreoffice/" "rofi/" "i3/" "ghb/" "configstore/" "mimeapps.list" "chromium/" "user-dirs.locale" "wal/" "binstar/" "cmst/" "optimus-manager/" "Unknown Organization/" "xfburn/" "monitors-v1-backup.xml" "zoomus.conf" "kdeglobals" "QtProject.conf" "ibus/" "monitors.xml~" "pikaur.conf" "./" "Thunar/" "dconf/" "user-dirs.dirs" "emacs/" "menus/" "Mousepad/" "procps/" "autostart/" "dolphinrc" "baloofileinformationrc" "enchant/" "onlyoffice/" "neofetch/" "gtk-4.0/" "flacon/" "gtk-2.0/" "pavucontrol.ini" "gtk-3.0/" "rclone/" "spyder-py3/" "picom/" "rclone-browser/" "linear/" "Kitware/" "zathura/" "jgit/" "glib-2.0/" "discord/" "session/" "pamac/" "google-chrome/" "Notepadqq/" "GIMP/" "vlc/" "monitors.xml" "../" "nemo/" "ristretto/" "vivaldi/" "qtile/" "calibre/" "marlin/" "xfce4/")
+
+ ("/home/bagofnothing/.emacs.d/" (24494 31469 668244 224000) "eln-cache/" "projectile-bookmarks.eld" ".lsp-session-v1" "url/" "ido.last" "init.el" "./" "auto-save-list/" ".cache/" "init.el~" ".dap-breakpoints" "elpa/" "projectile.cache" "ido.last~" "recentf" "transient/" "../")
 
  ("/home/bagofnothing/Development/python/progs/" (24494 28225 918164 269000) "fwLoops.py" ".empty/" "#ifStat.py#" ".git/" "./" "hello.py" "ifStat.py" ".projectile" "numbers.py" "../")
 
@@ -68,15 +105,11 @@
 
  ("/home/bagofnothing/Development/gitlab/" (24483 64495 574384 199000) "jekyll-theme-chirpy-master/" "aviranzerioniac.gitlab.io backup/" "./" "jekyll-theme-chirpy-master.zip" "2020-05-30-C-Bootcamp.md" "../")
 
- ("/home/bagofnothing/Development/github/" (24481 40255 624181 568000) "awesome-piracy/" "linuxKernel/" "worg/" "./" "java-testing-example/" "DWM/" "../")
-
  ("/home/bagofnothing/Development/orgs:md/" (24494 24150 701397 138000) "Projects.md" "randomNotes.org~" "./" "TheBridgetoLucyDunne.org" "randomNotes.org" ".projectile" "#randomNotes.org#" "unixLinuxHandbook.md" "../" "TheBridgetoLucyDunne.org~" "randomNotesAlgo.md")
 
  ("/home/bagofnothing/.config/qtile/" (24494 23032 951369 616000) "config.pyc" "./" "config.py~" "__pycache__/" "config.py" "autostart.sh" "../")
 
  ("/home/" (23812 57373 417732 327000) "lost+found/" "./" "bagofnothing/" "../")
-
- ("/home/bagofnothing/.config/" (24493 52158 789118 621000) "orage/" "pulse/" "systemd/" "libreoffice/" "rofi/" "i3/" "ghb/" "configstore/" "mimeapps.list" "chromium/" "user-dirs.locale" "wal/" "binstar/" "cmst/" "optimus-manager/" "Unknown Organization/" "xfburn/" "bspwm/" "monitors-v1-backup.xml" "zoomus.conf" "kdeglobals" "QtProject.conf" "ibus/" "monitors.xml~" "pikaur.conf" "./" "Thunar/" "dconf/" "user-dirs.dirs" "emacs/" "menus/" "Mousepad/" "procps/" "autostart/" "dolphinrc" "baloofileinformationrc" "enchant/" "onlyoffice/" "neofetch/" "gtk-4.0/" "flacon/" "gtk-2.0/" "pavucontrol.ini" "gtk-3.0/" "rclone/" "spyder-py3/" "picom/" "rclone-browser/" "linear/" "Kitware/" "zathura/" "jgit/" "glib-2.0/" "discord/" "session/" "pamac/" "google-chrome/" "Notepadqq/" "GIMP/" "vlc/" "monitors.xml" "../" "nemo/" "ristretto/" "vivaldi/" "qtile/" "calibre/" "marlin/" "xfce4/")
 
  ("/home/bagofnothing/Development/Uni/python/progs/" (24481 24917 101124 962000) "fwLoops.py" ".empty/" "#ifStat.py#" ".git/" "#hello.py#" "./" "hello.py" "ifStat.py" "numbers.py" "../")
 
