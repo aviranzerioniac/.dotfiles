@@ -2,7 +2,7 @@
 ;;; Configuring emacs from scratch is like using super glue to attach parts
 ;; that don't actually want to work together peacefully. But there is fun to
 ;; be had in that.
-;;; But if it works in the end, somehow, who am I to cry.
+;;; And if it works in the end, somehow, who am I to cry.
 ;;; @ Lokesh Dhakal 2020
 
 ;;;; Custom emacs config
