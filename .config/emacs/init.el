@@ -1,8 +1,9 @@
-;;; package --- sphaghetti user config emacs
-;;; Commentary: A custom config for emacs is like using super glue to join modules from
-;; places, that don't actually work together. But there is fun to be had in
-;; that.
-;;
+;;; init.el  --- sphaghetti emacs config
+;;; Configuring emacs from scratch is like using super glue to attach parts
+;; that don't actually want to work together peacefully. But there is fun to
+;; be had in that.
+;;; But if it works in the end, somehow, who am I to cry.
+;;; @ Lokesh Dhakal 2020
 
 ;;;; Custom emacs config
 
@@ -20,7 +21,7 @@
      ("MELPA Stable" . "http://stable.melpa.org/packages/")
      ("gnu" . "https://elpa.gnu.org/packages/")))
  '(package-selected-packages
-   '(all-the-icons-ibuffer all-the-icons-ivy-rich all-the-icons-dired all-the-icons-ivy doom-modeline use-package-ensure-system-package company-lsp lsp-haskell lsp-java eglot lsp-latex dap-mode dashboard org-edit-latex markdown-mode org-mode doom-themes python-mode counsel ivy-posframe)))
+   '(magit all-the-icons-ibuffer all-the-icons-ivy-rich all-the-icons-dired all-the-icons-ivy doom-modeline use-package-ensure-system-package company-lsp lsp-haskell lsp-java eglot lsp-latex dap-mode dashboard org-edit-latex markdown-mode org-mode doom-themes python-mode counsel ivy-posframe)))
 
 ;; User
 (setq user-full-name "Lokesh Dhakal"
@@ -163,7 +164,7 @@
 (use-package magit
   :ensure t
   :config
-  (setq magit-push-always-verify nil)
+ ;; (setq magit-push-always-verify nil)
   (setq git-commit-summary-max-length 50)
   :bind
   ("M-g" . magit-status))
