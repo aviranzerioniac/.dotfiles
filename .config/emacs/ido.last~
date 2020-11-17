@@ -2,6 +2,7 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/bagofnothing/.config/emacs/elpa/" . "dashboard-20201114.928/")
  ("/home/bagofnothing/.config/" . "emacs/")
  ("/home/bagofnothing/Development/python/" . "progs/")
  ("/" . "home/")
@@ -9,45 +10,61 @@
  ("/home/bagofnothing/Development/github/" . ".dotfiles/")
  ("/home/bagofnothing/Development/gitlab/" . "aviranzerioniac.gitlab.io backup/")
  ("/home/" . "bagofnothing/")
- ("/home/bagofnothing/" . ".emacs.d/")
+ ("/home/bagofnothing/" . ".config/")
  ("/home/bagofnothing/Development/Uni/python/" . "progs/")
  ("/home/bagofnothing/Development/Uni/" . "python/")
- ("/home/bagofnothing/Development/" . "github/")
+ ("/home/bagofnothing/Development/" . "Uni/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/bagofnothing/"
+ "/home/bagofnothing/.config/emacs/elpa/dashboard-20201114.928/"
  "/home/bagofnothing/.config/emacs/"
+ "/home/bagofnothing/Development/Uni/AFE/"
+ "/home/bagofnothing/.config/qtile/"
+ "/home/bagofnothing/"
  "/home/bagofnothing/Development/github/.dotfiles/"
  "/home/bagofnothing/.emacs.d/"
  "/home/bagofnothing/Development/orgs:md/"
  "/home/bagofnothing/Development/python/progs/"
  "/home/bagofnothing/Development/gitlab/aviranzerioniac.gitlab.io backup/"
- "/home/bagofnothing/.config/qtile/"
  "/home/bagofnothing/.config/"
  "/home/bagofnothing/Development/Uni/python/progs/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "keybind.py"
+ "dashboard-widgets.el"
+ "dashboard.el"
  "init.el"
- "LICENSE.org"
- "README.md"
- "randomNotes.org"
- "hello.py"
- "ifStat.py"
- "Projects.md"
+ "61.png"
  "config.py"
- "pavucontrol.ini"
+ "vorlesungNotes.org"
+ "info.org"
+ "config.el"
+ "autoload.el"
+ "keybind.py"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/bagofnothing/.config/emacs/" (24495 55714 381067 829000) "eln-cache/" "projectile-bookmarks.eld" ".lsp-session-v1" "url/" "ido.last" "init.el" "./" "auto-save-list/" ".cache/" "init.el~" ".dap-breakpoints" "elpa/" "projectile.cache" "ido.last~" "recentf" "transient/" "../")
+ ("/home/bagofnothing/.config/emacs/elpa/dashboard-20201114.928/" (24498 64213 188990 208000) "dashboard.elc" "dashboard.el" "dashboard-widgets.el" "./" "dashboard-pkg.el" "dashboard-widgets.elc" "dashboard-autoloads.el" "../" "banners/")
 
- ("/home/bagofnothing/" (24495 55359 761065 504000) ".anaconda/" ".gtkrc-2.0" ".local/" ".ngrok2/" ".xsession-errors" ".continuum/" ".java/" ".pylint.d/" ".bashrc" ".dmrc" "keybind.py" "MEGAsync Downloads/" ".eclipse/" "Development/" ".npm/" "rclone.conf" ".Xauthority" ".bash_profile" ".MakeMKV/" "lastPlay.xspf" ".condarc" ".bash_logout" ".jupyter/" ".themes/" ".eclipse-java-config/" ".dbus/" ".electron/" ".anydesk/" ".swt/" "./" "Calibre Library/" ".config/" ".ssh/" ".profile" ".xinitrc" ".cache/" ".ipython/" ".xbindkeysrc" ".ipynb_checkpoints/" ".w3m/" ".python_history-06622.tmp" ".putty/" ".esd_auth" "Documents/" ".tragtor/" ".keras/" ".gnome/" ".mozilla/" "Pictures/" ".spacemacs" ".ICEauthority" ".electron-gyp/" ".bash_history" ".zoom/" ".gradle/" "Video/" ".gitconfig" ".yarnrc" ".wget-hsts" ".conda/" ".pki/" ".tooling/" ".fehbg" ".icons/" ".cinnamon/" ".jd/" ".p7zip" "AnyDesk/" ".gnome2/" "Music/" ".install4j" "Downloads/" ".uselessThings/" ".gnupg/" "../" ".python_history" ".nv/" ".m2/" "Desktop/" "keybind.py~" ".gem/" ".optimus" ".yarn/" ".xsession-errors.old")
+ ("/home/bagofnothing/.config/emacs/elpa/" (24495 62075 757776 198000) "f-20191110.1357/" "lv-20200507.1518/" "pkg-info-20150517.1143/" "request-20201026.2324/" "company-lsp-20190612.1553/" "memoize-20200103.2036/" "lsp-treemacs-20201111.2015/" "ivy-20201110.1021/" "doom-themes-20201113.1800/" "ivy-fuz-20191222.946/" "company-20201028.136/" "dap-mode-20201113.1401/" "doom-modeline-20201112.424/" "hydra-20200711.1210/" "spinner-1.7.3/" "treemacs-20201111.1905/" "posframe-20201026.716/" "magit-20201111.2340/" "pfuture-20200425.1357/" "gnupg/" "flycheck-20201105.423/" "async-20200809.501/" "s-20180406.808/" "lsp-haskell-20201011.1941/" "dashboard-20201114.928/" "./" "dash-20200803.1520/" "git-commit-20200828.1753/" "ivy-rich-20200601.104/" "shrink-path-20190208.1335/" "markdown-mode-20201015.1327/" "org-edit-latex-20170908.1522/" "bug-hunter-1.3.1.signed" "bui-20200426.2219/" "ivy-posframe-20201026.319/" "eglot-20201103.1026/" "lsp-mode-20201113.1903/" "swiper-20201023.1053/" "projectile-20201030.1132/" "archives/" "julia-mode-20200917.713/" "lsp-pyright-20201014.1620/" "epl-20180205.2049/" "all-the-icons-20200923.1339/" "page-break-lines-20200305.244/" "fuz-20200104.524/" "haskell-mode-20200929.2119/" "counsel-20201109.1753/" "with-editor-20201030.1232/" "ace-window-20200606.1259/" "avy-20200624.1148/" "../" "lsp-java-20201105.1758/" "transient-20201102.2024/" "ht-20200217.2331/" "dash-functional-20200617.702/" "spinner-1.7.3.signed" "auctex-12.3.1/" "eglot-jl-20200726.741/" "auctex-12.3.1.signed" "all-the-icons-ivy-rich-20200811.838/" "bug-hunter-1.3.1/")
+
+ ("/home/bagofnothing/.config/emacs/" (24498 64023 695652 200000) "eln-cache/" "projectile-bookmarks.eld" ".lsp-session-v1" "url/" "ido.last" "init.el" "./" "auto-save-list/" ".cache/" "init.el~" ".dap-breakpoints" "elpa/" "projectile.cache" "ido.last~" "recentf" "transient/" "../")
+
+ ("/home/bagofnothing/" (24498 60411 212229 758000) ".anaconda/" ".gtkrc-2.0" ".local/" ".ngrok2/" ".xsession-errors" ".continuum/" ".java/" ".pylint.d/" ".bashrc" ".dmrc" "keybind.py" "MEGAsync Downloads/" ".eclipse/" "Development/" ".npm/" "rclone.conf" ".Xauthority" ".bash_profile" ".MakeMKV/" "lastPlay.xspf" ".condarc" ".bash_logout" ".jupyter/" ".themes/" ".eclipse-java-config/" "feh_090792_000001_logo.png" ".dbus/" ".electron/" ".anydesk/" ".swt/" "./" "Calibre Library/" ".config/" ".ssh/" ".profile" ".xinitrc" ".cache/" ".ipython/" ".xbindkeysrc" ".ipynb_checkpoints/" ".w3m/" ".python_history-06622.tmp" ".putty/" ".esd_auth" "Documents/" ".tragtor/" ".keras/" ".gnome/" ".mozilla/" "Pictures/" ".spacemacs" ".ICEauthority" ".electron-gyp/" ".bash_history" ".zoom/" ".gradle/" "Video/" ".gitconfig" ".yarnrc" ".wget-hsts" ".conda/" ".pki/" ".tooling/" ".fehbg" ".icons/" ".cinnamon/" ".jd/" ".p7zip" "AnyDesk/" ".gnome2/" "Music/" ".install4j" "Downloads/" ".uselessThings/" ".gnupg/" "../" ".python_history" ".nv/" ".m2/" "Desktop/" "feh_090792_000002_logo.png" "keybind.py~" ".gem/" ".optimus" ".yarn/" ".xsession-errors.old")
+
+ ("/home/bagofnothing/Development/Uni/AFE/" (24498 61526 845590 609000) "info.org~" "vlNotes.org~" "FGdIscript20.pdf" "Uebung01_Aufgaben.pdf" "FGdI1slides.2.pdf" "./" "info.org" "vorlesungNotes.org~" "61.png" "FGdI1slides.3.pdf" "Uebung01_Gruppenloesung.pdf" "../" "FGdI1slides.1.pdf" "vlNotes.org")
+
+ ("/home/bagofnothing/Development/Uni/" (24498 40056 578395 55000) "EKI/" "./" "missing-semester/" "AFE/" ".projectile" "RO/" "../")
+
+ ("/home/bagofnothing/Development/orgs:md/" (24497 51764 658754 433000) "#WeekofWisedom.org#" "Projects.md" "WeekofWisedom.org~" "randomNotes.org~" "./" "TheBridgetoLucyDunne.org" "randomNotes.org" ".projectile" "unixLinuxHandbook.md" "../" "TheBridgetoLucyDunne.org~" "randomNotesAlgo.md")
+
+ ("/home/bagofnothing/.config/qtile/" (24495 55152 581064 146000) "config.pyc" "./" "config.py~" "__pycache__/" "config.py" "autostart.sh" "../")
+
+ ("/home/bagofnothing/Development/python/progs/" (24495 62249 41110 667000) "fwLoops.py" ".empty/" "#ifStat.py#" ".git/" "./" "hello.py" "ifStat.py" ".projectile" "numbers.py" "../")
 
  ("/home/bagofnothing/Development/github/.dotfiles/" (24495 52470 137713 230000) ".bashrc" ".git/" "README.md" "./" "LICENSE" ".config/" ".xinitrc" ".xbindkeysrc" "pkglist.txt" "../")
 
@@ -81,8 +98,6 @@
 
  ("/home/bagofnothing/.emacs.d/" (24494 31469 668244 224000) "eln-cache/" "projectile-bookmarks.eld" ".lsp-session-v1" "url/" "ido.last" "init.el" "./" "auto-save-list/" ".cache/" "init.el~" ".dap-breakpoints" "elpa/" "projectile.cache" "ido.last~" "recentf" "transient/" "../")
 
- ("/home/bagofnothing/Development/python/progs/" (24494 28225 918164 269000) "fwLoops.py" ".empty/" "#ifStat.py#" ".git/" "./" "hello.py" "ifStat.py" ".projectile" "numbers.py" "../")
-
  ("/home/bagofnothing/Development/python/" (24463 24664 431715 768000) "pythontutorial/" "progs/" "./" "notes.md" "Python-programming-exercises/" "A Beginners Guide to Python 3 Programming - John Hunt - 978-3-030-20290-3.pdf" "../")
 
  ("/home/bagofnothing/Development/" (24494 26566 64790 34000) "emacs-native-comp-git/" "Uni/" "./" "build/" "orgs:md/" "gitlab/" "eclipse/" "github/" "../" "python/")
@@ -105,17 +120,11 @@
 
  ("/home/bagofnothing/Development/gitlab/" (24483 64495 574384 199000) "jekyll-theme-chirpy-master/" "aviranzerioniac.gitlab.io backup/" "./" "jekyll-theme-chirpy-master.zip" "2020-05-30-C-Bootcamp.md" "../")
 
- ("/home/bagofnothing/Development/orgs:md/" (24494 24150 701397 138000) "Projects.md" "randomNotes.org~" "./" "TheBridgetoLucyDunne.org" "randomNotes.org" ".projectile" "#randomNotes.org#" "unixLinuxHandbook.md" "../" "TheBridgetoLucyDunne.org~" "randomNotesAlgo.md")
-
- ("/home/bagofnothing/.config/qtile/" (24494 23032 951369 616000) "config.pyc" "./" "config.py~" "__pycache__/" "config.py" "autostart.sh" "../")
-
  ("/home/" (23812 57373 417732 327000) "lost+found/" "./" "bagofnothing/" "../")
 
  ("/home/bagofnothing/Development/Uni/python/progs/" (24481 24917 101124 962000) "fwLoops.py" ".empty/" "#ifStat.py#" ".git/" "#hello.py#" "./" "hello.py" "ifStat.py" "numbers.py" "../")
 
  ("/home/bagofnothing/Development/Uni/python/" (24463 24664 431715 768000) "pythontutorial/" "progs/" "./" "notes.md" "Python-programming-exercises/" "A Beginners Guide to Python 3 Programming - John Hunt - 978-3-030-20290-3.pdf" "../")
-
- ("/home/bagofnothing/Development/Uni/" (24480 19534 481295 592000) "EKI/" "./" "missing-semester/" "../" "python/")
 )
 
 ;; ----- ido-unc-hosts-cache -----

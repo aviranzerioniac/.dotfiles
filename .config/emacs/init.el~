@@ -21,7 +21,7 @@
      ("MELPA Stable" . "http://stable.melpa.org/packages/")
      ("gnu" . "https://elpa.gnu.org/packages/")))
  '(package-selected-packages
-   '(magit all-the-icons-ivy-rich doom-modeline company-lsp eglot dashboard org-edit-latex org-mode doom-themes python-mode counsel ivy-posframe)))
+   '(latex-math-preview lsp-latex fortune-cookie lsp-pyright lsp-mode lsp-java lsp-org ivy-fuz magit all-the-icons-ivy-rich doom-modeline company-lsp eglot dashboard org-edit-latex org-mode doom-themes python-mode counsel ivy-posframe)))
 
 ;; User
 (setq user-full-name "Lokesh Dhakal"
@@ -51,13 +51,19 @@
 ;; Line numbers
 (global-display-line-numbers-mode)
 
+;; Garbage Collector
+(setq gc-cons-threshold (* 300 1024 1024))
+
+
 ;; ;; ;; Loading Modules ;; ;; ;;
 
 ;; LSP for emacs & its servers
-;;(require 'lsp-mode)
-;;(lsp-mode 1)
+
+ (require 'lsp-mode)
+(lsp-mode 1)
 ;; (add-hook 'prog-mode-hook #'lsp) ;; general hook for langs lsp
-(require 'lsp-ui)
+(lsp-treemacs-sync-mode 1)
+
 (require 'dap-mode)
 (dap-mode 1)
 
@@ -67,14 +73,14 @@
 (add-hook 'c-mode-hook 'eglot-ensure)
 (add-hook 'c++-mode-hook 'eglot-ensure)
 
-;; Java 
+;; Java
 (require 'lsp-java)
 (add-hook 'java-mode-hook #'lsp)
 (add-hook 'java-mode-hook 'flycheck-mode)
 
 ;; Python
-(require 'lsp-python-ms)
-(setq lsp-python-ms-auto-install-server t)
+(require 'lsp-pyright)
+;;(setq lsp-python-ms-auto-install-server t)
 (add-hook 'python-mode-hook #'lsp) ; or lsp-deferred
 
 ;; Haskell
@@ -97,6 +103,13 @@
 
 (require 'ivy-rich)
 (ivy-rich-mode 1)
+
+(require 'ivy-fuz)
+(setq ivy-sort-matches-functions-alist '((t . ivy-fuz-sort-fn)))
+(setq ivy-re-builders-alist '((t . ivy-fuz-regex-fuzzy)))
+(with-eval-after-load 'ivy
+  (require 'ivy-fuz)
+  (add-to-list 'ivy-highlight-functions-alist '(ivy-fuz-regex-fuzzy . ivy-fuz-highlight-fn)))
 
 (require 'ivy-posframe)
 ;; display at `ivy-posframe-style'
@@ -121,6 +134,8 @@
 (projectile-mode +1)
 ;;(setq projectile-project-search-path '("~/Development/orgs:md" "~/Development/github/java-testing-example" "~/Development/github/awesome-piracy" "~/Development/github/linuxKernel"))
 
+;;; Dashboard
+
 (require 'dashboard)
 (dashboard-setup-startup-hook)
 ;; Dashboard in frames with emacsclient -c
@@ -128,7 +143,7 @@
 ;; Dashboard title
 (setq dashboard-banner-logo-title "")
 ;; Set the banner
-(setq dashboard-startup-banner 'official)
+(setq dashboard-startup-banner '(shell-command-to-string "splashcii"))
 ;; Value can be
 ;; 'official which displays the official emacs logo
 ;; 'logo which displays an alternative emacs logo
@@ -144,10 +159,11 @@
                        (projects . 5)
                        (agenda . 5)))
                        ;; (registers . 5)))       
-;; Packages loaded $ init time
-(setq dashboard-set-init-info t)
 ;; A random footer
 (setq dashboard-set-footer t)
+
+;; Packages loaded $ init time
+(setq dashboard-set-init-info t)
 
 ;; flycheck
 (require 'flycheck)
@@ -155,15 +171,33 @@
 
 ;; magit
 (require 'magit)
-
+(global-set-key (kbd "C-x g") 'magit-status)
 
 ;; DOOM modeline
 (require 'doom-modeline)
 (doom-modeline-mode 1)
+(setq doom-modeline-icon (display-graphic-p))
 (setq doom-modeline-major-mode-icon t)
 (setq doom-modeline-major-mode-color-icon t)
 (setq doom-modeline-buffer-state-icon t)
 (setq doom-modeline-enable-word-count t)
+(setq doom-modeline-continuous-word-count-modes '(markdown-mode org-mode latex-mode text-mode))
+(setq doom-modeline-buffer-encoding nil)
+
+
+;;; org-mode ;;;
+
+;; global keybindings
+(global-set-key (kbd "C-c l") 'org-store-link)
+(global-set-key (kbd "C-c a") 'org-agenda)
+(global-set-key (kbd "C-c c") 'org-capture)
+
+;; ;; ;; TODO ;; ;; ;;
+
+;; Others
+(setq org-support-shift-select t)
+;; (setq org-)
+
 
 ;; utf-8 hide from the modeline
 
@@ -171,6 +205,9 @@
   (setq-local doom-modeline-buffer-encoding
               (unless (or (eq buffer-file-coding-system 'utf-8-unix)
                           (eq buffer-file-coding-system 'utf-8)))))
+
+;;; Keybindings ;;;
+(global-set-key (kbd "C-x e") 'eww)
 
 
 (custom-set-faces
