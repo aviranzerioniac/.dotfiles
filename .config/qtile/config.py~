@@ -9,6 +9,7 @@
 ##                                    ##
 ########################################
 
+from sys import prefix
 from typing import List  # noqa: F401
 
 import os
@@ -88,10 +89,10 @@ keys = [
 ]
 
 
-group_names = [("Default", {'layout': 'monadtail'}),
+group_names = [("Default", {'layout': 'bsp'}),
                ("Browser", {'layout': 'max'}),
-               ("Emacs", {'layout': 'bsp'}),
-               ("Prod", {'layout': 'monadtall'}),
+               ("Emacs", {'layout': 'monadtall'}),
+               ("Prod", {'layout': 'bsp'}),
                ("Dump", {'layout': 'max'}),
                ("Music", {'layout': 'monadtall'}),
                ("Omega", {'layout': 'floating'})]
@@ -101,7 +102,7 @@ groups = [Group(name, **kwargs) for name, kwargs in group_names]
 for i, (name, kwargs) in enumerate(group_names, 1):
     keys.append(Key([mod], str(i), lazy.group[name].toscreen()))        # Switch to another group
     keys.append(Key([mod, "shift"], str(i), lazy.window.togroup(name))) # Send current window to another group
-    
+
 layout_theme = {"border_width": 4,
                 "border_focus": "e1acff",
                 "border_normal": "1D2330"
@@ -137,14 +138,15 @@ screens = [
     Screen(
         top=bar.Bar(
             [
-                widget.GroupBox(hide_unused='True', rounded='True'),
-                widget.WindowName(show_state='True'),
+                widget.GroupBox(hide_unused='True', rounded='True', active = "5e81ac", inactive = "b48ead", this_current_screen_border = "bf616a", highlight_method = "line", highlight_color=["2e3440", "2e3440"], center_aligned=True,),
+                widget.WindowName(show_state='True', markup='True'),
 
                 ## widget.Prompt(),
                 ## widget.TextBox("default config", name="default"),
                 ## widget.TextBox("Press &lt;M-r&gt; to spawn", foreground="#d75f5f"),
+                widget.Pomodoro(length_long_break=20, length_short_break=5, length_pomodori=35, notification_on='True', num_pomodori=3, prefix_inactive='Pomo', prefix_pause='Pause', update_interval=1),
                 widget.Systray(icon_size=15),
-                widget.Clock(format='%b %d, %a %H:%M'),
+                widget.Clock(format='%A %d %b, %H:%M'),
                widget.CurrentLayoutIcon(scale=0.6),
             ],
            size=24, opacity=0.5
