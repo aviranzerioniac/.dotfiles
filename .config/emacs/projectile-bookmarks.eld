@@ -1,1 +1,1 @@
-("~/Development/Uni/" "~/Development/orgs:md/" "~/Development/python/progs/" "~/Development/github/.dotfiles/" "~/Development/github/java-testing-example/" "~/Development/github/awesome-piracy/" "~/Development/gitlab/aviranzerioniac.gitlab.io backup/_posts/")
+("~/Development/github/.dotfiles/" "~/Development/Uni/" "~/Development/emacs-native-comp-git/" "~/Development/python/progs/" "~/Development/github/java-testing-example/" "~/Development/github/awesome-piracy/" "~/Development/orgs:md/")

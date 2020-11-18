@@ -1,0 +1,2 @@
+;;; Generated package description from /home/bagofnothing/.config/emacs/elpa/flyspell-correct-ivy-20200513.708/flyspell-correct-ivy.el  -*- no-byte-compile: t -*-
+(define-package "flyspell-correct-ivy" "20200513.708" "Correcting words with flyspell via ivy interface" '((flyspell-correct "0.6.1") (ivy "0.8.0") (emacs "24.3")) :commit "6d603a1dc51918f7f8aaf99dd5443f74a0afc794" :authors '(("Boris Buliga" . "boris@d12frosted.io")) :maintainer '("Boris Buliga" . "boris@d12frosted.io") :url "https://github.com/d12frosted/flyspell-correct")

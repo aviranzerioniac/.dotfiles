@@ -1,5 +1,3 @@
 * Default
-** progs
- - path :: ~/Development/python/progs
-** qtile
- - path :: ~/.config/qtile
+** Development
+ - path :: ~/Development
