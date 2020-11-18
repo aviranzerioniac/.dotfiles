@@ -74,6 +74,11 @@
 (set-face-attribute 'default nil :font "Source Code Pro Medium")
 (set-fontset-font t 'latin "Noto Sans")
 
+;; ido
+(setq ido-enable-flex-matching t)
+(setq ido-everywhere t)
+(ido-mode 1)
+
 ;; ;; ;; ;; ;; ;;
 ;; LSP mode    ;;
 ;; ;; ;; ;; ;; ;;
