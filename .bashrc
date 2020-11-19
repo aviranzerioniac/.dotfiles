@@ -3,13 +3,11 @@
 #
 
 # If not running interactively, don't do anything
-
 [[ $- != *i* ]] && return
 
 PS1='[\W]=> '
 
-export PATH="/home/bagofnothing/.gem/ruby/2.7.0/bin"
-export PATH="/usr/bin/"
+export PATH=/usr/bin:/home/bagofnothing/.gem/ruIby/2.7.0/bin
 
 ### Alias for Tasks
 
@@ -42,7 +40,7 @@ alias config='emacsclient -t ~/.config/qtile/config.py' # enables readily editin
 alias py='cd Development/python/progs' # going to my python folder
 
 # navigation
-alias ..='cd ..' 
+alias ..='cd ..'
 alias ...='cd ../..'
 alias .3='cd ../../..'
 alias .4='cd ../../../..'
@@ -82,6 +80,9 @@ alias newtag='git tag -a'
 alias ssn="systemctl poweroff"
 alias reboot="systemctl reboot"
 
-# Emacs in terminal
+# Emacs fluff
 alias sumacs="sudo emacsclient -t"
 alias macs="emacsclient -t"
+alias stop="systemctl --user stop emacs"
+alias start="systemctl --user start emacs"
+alias reload="systemctl --user daemon-reload"

@@ -1,1 +1,1 @@
-("~/Development/github/.dotfiles/" "~/Development/Uni/" "~/Development/emacs-native-comp-git/" "~/Development/python/progs/" "~/Development/github/java-testing-example/" "~/Development/github/awesome-piracy/" "~/Development/orgs:md/")
+("~/Development/python/progs/" "~/Development/Uni/" "~/Development/orgs:md/" "~/Development/github/.dotfiles/" "~/Development/emacs-native-comp-git/" "~/Development/github/java-testing-example/" "~/Development/github/awesome-piracy/")

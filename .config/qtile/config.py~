@@ -89,13 +89,13 @@ keys = [
 ]
 
 
-group_names = [("Default", {'layout': 'bsp'}),
-               ("Browser", {'layout': 'max'}),
-               ("Emacs", {'layout': 'monadtall'}),
-               ("Prod", {'layout': 'bsp'}),
-               ("Dump", {'layout': 'max'}),
-               ("Music", {'layout': 'monadtall'}),
-               ("Omega", {'layout': 'floating'})]
+group_names = [("", {'layout': 'bsp'}),
+               ("", {'layout': 'max'}),
+               ("", {'layout': 'monadtall'}),
+               ("", {'layout': 'bsp'}),
+               ("", {'layout': 'max'}),
+               ("", {'layout': 'monadtall'}),
+               ("", {'layout': 'floating'})]
 
 groups = [Group(name, **kwargs) for name, kwargs in group_names]
 
@@ -205,4 +205,4 @@ def start_once():
 #
 # We choose LG3D to maximize irony: it is a 3D non-reparenting WM written in
 # java that happens to be on java's whitelist.
-wmname = "LG3D"
+wmname = "Qt!l3"
