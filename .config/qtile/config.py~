@@ -144,7 +144,7 @@ screens = [
                 ## widget.Prompt(),
                 ## widget.TextBox("default config", name="default"),
                 ## widget.TextBox("Press &lt;M-r&gt; to spawn", foreground="#d75f5f"),
-                widget.Pomodoro(length_long_break=20, length_short_break=5, length_pomodori=35, notification_on='True', num_pomodori=3, prefix_inactive='Pomo', prefix_pause='Pause', update_interval=1),
+                widget.Pomodoro(length_long_break=20, length_short_break=5, length_pomodori=35, notification_on='True', num_pomodori=3, prefix_inactive='', prefix_pause='', update_interval=1),
                 widget.Systray(icon_size=15),
                 widget.Clock(format='%A %d %b, %H:%M'),
                widget.CurrentLayoutIcon(scale=0.6),
@@ -205,4 +205,4 @@ def start_once():
 #
 # We choose LG3D to maximize irony: it is a 3D non-reparenting WM written in
 # java that happens to be on java's whitelist.
-wmname = "Qt!l3"
+wmname = "LG3D"

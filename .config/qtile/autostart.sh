@@ -10,7 +10,7 @@ function run {
 
 ## emacs --daemon & # Start emacs as a daemon, useful for when systemd fucks you up
 ~/.fehbg & # Wallpaper from previous session with feh
-numlockx & # NUmlock on restart
+#numlockx & # NUmlock on restart
 setxkbmap -layout de -option ctrl:nocaps # de + caps -> shift
 # setxkbmap de & # changing keymap to german, if it has somehow failed
 picom -b & # compositor for transparency

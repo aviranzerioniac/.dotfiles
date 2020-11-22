@@ -17,6 +17,22 @@
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/bagofnothing/Development/orgs:md/" (24505 1981 451075 992000) "eig.pdf~" "#WeekofWisedom.org#" "eig.org" "Projects.md" "WeekofWisedom.org~" "eig.tex~" "randomNotes.org~" "./" "TheBridgetoLucyDunne.org" "randomNotes.org" ".projectile" "eig.tex" "eig.org~" "TheBridgetoLucyDunne.tex~" "eig.pdf" "unixLinuxHandbook.md~" "unixLinuxHandbook.md" "##WeekofWisedom.org##" "../" "TheBridgetoLucyDunne.org~" "randomNotesAlgo.md" "auto/")
+
+ ("/usr/share/texmf-dist/tex/latex/tools/" (24501 21607 457893 784000) "hhline.sty" "array.sty" "thcb.sty" "dcolumn.sty" "./" "showkeys.sty" "enumerate.sty" "../" "calc.sty" "bm.sty" ".tex" "rawfonts.sty" "tabularx.sty" "somedefs.sty" "thc.sty" "thb.sty" "array-2016-10-06.sty" "shellesc.sty" "thmb.sty" "s.tex" "trace.sty" "verbtest.tex" "multicol.sty" "r.tex" "theorem.sty" "longtable.sty" "h.tex" "afterpage.sty" "xr.sty" "xspace.sty" "indentfirst.sty" "x.tex" "e.tex" "layout.sty" "thp.sty" "thm.sty" "delarray.sty" "q.tex" "fontsmpl.sty" "varioref-2016-02-16.sty" "varioref.sty" "ftnright.sty" "verbatim.sty" "multicol-2017-04-11.sty" "fontsmpl.tex")
+
+ ("/home/bagofnothing/Development/eclipse/fop/H01_NACHNAME_VORNAME/" (24503 53189 537919 861000) ".settings/" "bin/" "res/" ".classpath" "doc/" "./" "src/" "lib/" ".project" "../")
+
+ ("/home/bagofnothing/Development/eclipse/fop/H01_NACHNAME_VORNAME/src/" (24503 53189 537919 861000) "misc/" "./" "h01/" "../")
+
+ ("/home/bagofnothing/Development/eclipse/fop/H01_NACHNAME_VORNAME/src/h01/" (24503 53189 537919 861000) "./" "Task1.java" "../")
+
+ ("/home/bagofnothing/Development/eclipse/fop/H01_NACHNAME_VORNAME.zip_expanded/H01_NACHNAME_VORNAME/" (24503 46268 547749 663000) ".settings/" "bin/" "res/" ".classpath" "doc/" "./" "src/" "lib/" ".project" "../")
+
+ ("/home/bagofnothing/Development/eclipse/fop/H01_NACHNAME_VORNAME.zip_expanded/H01_NACHNAME_VORNAME/src/" (24503 46268 551082 997000) "misc/" "./" "h01/" "../")
+
+ ("/home/bagofnothing/Development/eclipse/fop/H01_NACHNAME_VORNAME.zip_expanded/H01_NACHNAME_VORNAME/src/h01/" (24503 46638 924425 372000) ".#Task1.java" "./" "Task1.java" "../")
+
  ("/home/bagofnothing/.config/emacs/" (24502 13394 494559 323000) "nov-places" "eln-cache/" "projectile-bookmarks.eld" ".lsp-session-v1" "init.el" "snippets/" "./" "auto-save-list/" "history" ".cache/" "init.el~" ".dap-breakpoints" "elpa/" "projectile.cache" "recentf" "../")
 
  ("/home/bagofnothing/.config/" (24499 58658 794248 276000) "orage/" "pulse/" "systemd/" "libreoffice/" "rofi/" "i3/" "ghb/" "configstore/" "mimeapps.list" "chromium/" "user-dirs.locale" "wal/" "binstar/" "cmst/" "optimus-manager/" "Unknown Organization/" "xfburn/" "monitors-v1-backup.xml" "zoomus.conf" "kdeglobals" "QtProject.conf" "ibus/" "monitors.xml~" "pikaur.conf" "./" "Thunar/" "dconf/" "user-dirs.dirs" "emacs/" "menus/" "Mousepad/" "procps/" "autostart/" "dolphinrc" "baloofileinformationrc" "enchant/" "onlyoffice/" "neofetch/" "gtk-4.0/" "flacon/" "gtk-2.0/" "pavucontrol.ini" "gtk-3.0/" "rclone/" "spyder-py3/" "picom/" "rclone-browser/" "linear/" "Kitware/" "zathura/" "jgit/" "glib-2.0/" "discord/" "session/" "pamac/" "google-chrome/" "Notepadqq/" "GIMP/" "vlc/" "monitors.xml" "../" "nemo/" "ristretto/" "vivaldi/" "qtile/" "calibre/" "marlin/" "xfce4/")

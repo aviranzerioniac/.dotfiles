@@ -1,0 +1,2 @@
+;;; Generated package description from /home/bagofnothing/.config/emacs/elpa/nov-20201121.1149/nov.el  -*- no-byte-compile: t -*-
+(define-package "nov" "20201121.1149" "Featureful EPUB reader mode" '((dash "2.12.0") (esxml "0.3.3") (emacs "24.4")) :stars '(#("341" 0 3 (font-lock-face paradox-star-face))) :commit "7845e3d01ee608691c44328c2e9ef4f3394470af" :keywords '("hypermedia" "multimedia" "epub") :authors '(("Vasilij Schneidermann" . "mail@vasilij.de")) :maintainer '("Vasilij Schneidermann" . "mail@vasilij.de") :url "https://depp.brause.cc/nov.el")

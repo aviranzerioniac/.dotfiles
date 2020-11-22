@@ -1,3 +1,5 @@
+;;; init.el -*- lexical-binding: t; -*-
+
 ;; ;; ;;
 ;; emacs config made from scratch
 ;; sphaghetti emacs config
@@ -54,20 +56,16 @@
  user-full-name "Lokesh Dhakal"                   ; Set the full name of the current user
  user-mail-address "aviranzerioniac@gmail.com"     ; Set the email address of the current user
  vc-follow-symlinks t)                             ; Always follow the symlinks
- (column-number-mode 1)                            ; Show the column number
- (fset 'yes-or-no-p 'y-or-n-p)                     ; Replace yes/no prompts with y/n
- (global-hl-line-mode)                             ; Hightlight current line
- (set-default-coding-systems 'utf-8)               ; Default to utf-8 encoding
- (show-paren-mode 1)
- (menu-bar-mode -1)
- (tool-bar-mode -1)
- (scroll-bar-mode -1)
- (horizontal-scroll-bar-mode -1)
- (tooltip-mode -1)
-
-;; Fonts
-(set-face-attribute 'default nil :font "Source Code Pro Medium")
-(set-fontset-font t 'latin "Noto Sans")
+(column-number-mode 1)                            ; Show the column number
+(fset 'yes-or-no-p 'y-or-n-p)                     ; Replace yes/no prompts with y/n
+(global-hl-line-mode)                             ; Hightlight current line
+(set-default-coding-systems 'utf-8)               ; Default to utf-8 encoding
+(show-paren-mode 1)
+(menu-bar-mode -1)
+(tool-bar-mode -1)
+(scroll-bar-mode -1)
+(horizontal-scroll-bar-mode -1)
+(tooltip-mode -1)
 
 ;; ido
 (setq ido-enable-flex-matching t)
@@ -115,7 +113,7 @@
 				   ;; (dashboard-set-heading-icons t)
 				   (dashboard-set-init-info nil)
 				   (dashboard-set-navigator t)
-				   (dashboard-startup-banner 'logo)
+				   (dashboard-startup-banner '1.txt)
 				   :config
 				   (add-to-list 'dashboard-item-generators '(packages . dashboard-load-packages))))
 (dashboard-setup-startup-hook)

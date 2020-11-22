@@ -1,1 +1,1 @@
-("~/Development/python/progs/" "~/Development/Uni/" "~/Development/orgs:md/" "~/Development/github/.dotfiles/" "~/Development/emacs-native-comp-git/" "~/Development/github/java-testing-example/" "~/Development/github/awesome-piracy/")
+("~/Development/python/progs/" "/var/tmp/pamac-build-bagofnothing/qtile-git/" "~/Development/orgs:md/" "~/Development/Uni/" "~/Development/github/.dotfiles/" "~/Development/gitlab/aviranzerioniac.gitlab.io/" "~/Development/github/java-testing-example/" "~/Development/github/awesome-piracy/")
