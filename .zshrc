@@ -52,7 +52,7 @@ DISABLE_AUTO_UPDATE="true"
 # DISABLE_MAGIC_FUNCTIONS="true"
 
 # Uncomment the following line to disable colors in ls.
-# DISABLE_LS_COLORS="true"
+ DISABLE_LS_COLORS="true"
 
 # Uncomment the following line to disable auto-setting terminal title.
 # DISABLE_AUTO_TITLE="true"
@@ -109,10 +109,12 @@ plugins=(git)
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 #
-# Example aliases
+ # Example aliases
+
  alias zshconfig="emacsclient -t ~/.zshrc"
  alias ohmyzsh="emacsclient -t ~/.oh-my-zsh"
-### Alias for Tasks
+
+ ### Alias for Tasks
 
 ## Emacs as the default editor/visual
 export EDITOR="emacsclient -t"
@@ -154,9 +156,9 @@ alias activate='source /opt/anaconda/bin/activate root'
 alias deactivate='conda deactivate'
 
 # Changing "ls" to "exa"
-alias ls='exa -al --color=always --group-directories-first' # preferred listing
+alias ls='exa -l --color=always --group-directories-first' # preferred listing
 alias la='exa -a --color=always --group-directories-first'  # all files and dirs
-alias ll='exa -l --color=always --group-directories-first'  # long format
+alias ll='exa -al --color=always --group-directories-first'  # long format
 alias lt='exa -aT --color=always --group-directories-first' # tree listing
 alias l.='exa -a | egrep "^\."'
 

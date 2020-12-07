@@ -17,6 +17,8 @@
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/bagofnothing/Development/python/python-patterns/" (24506 52515 364827 851000) ".coveragerc" "setup.cfg" ".gitignore" "tests/" ".git/" "README.md" "./" "append_output.sh" "patterns/" ".travis.yml" "setup.py" "tox.ini" "Makefile" "requirements-dev.txt" ".#README.md" "../")
+
  ("/home/bagofnothing/Development/orgs:md/" (24505 1981 451075 992000) "eig.pdf~" "#WeekofWisedom.org#" "eig.org" "Projects.md" "WeekofWisedom.org~" "eig.tex~" "randomNotes.org~" "./" "TheBridgetoLucyDunne.org" "randomNotes.org" ".projectile" "eig.tex" "eig.org~" "TheBridgetoLucyDunne.tex~" "eig.pdf" "unixLinuxHandbook.md~" "unixLinuxHandbook.md" "##WeekofWisedom.org##" "../" "TheBridgetoLucyDunne.org~" "randomNotesAlgo.md" "auto/")
 
  ("/usr/share/texmf-dist/tex/latex/tools/" (24501 21607 457893 784000) "hhline.sty" "array.sty" "thcb.sty" "dcolumn.sty" "./" "showkeys.sty" "enumerate.sty" "../" "calc.sty" "bm.sty" ".tex" "rawfonts.sty" "tabularx.sty" "somedefs.sty" "thc.sty" "thb.sty" "array-2016-10-06.sty" "shellesc.sty" "thmb.sty" "s.tex" "trace.sty" "verbtest.tex" "multicol.sty" "r.tex" "theorem.sty" "longtable.sty" "h.tex" "afterpage.sty" "xr.sty" "xspace.sty" "indentfirst.sty" "x.tex" "e.tex" "layout.sty" "thp.sty" "thm.sty" "delarray.sty" "q.tex" "fontsmpl.sty" "varioref-2016-02-16.sty" "varioref.sty" "ftnright.sty" "verbatim.sty" "multicol-2017-04-11.sty" "fontsmpl.tex")
