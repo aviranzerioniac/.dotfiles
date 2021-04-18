@@ -4,7 +4,11 @@
 (setq url-cookie-storage
  'nil)
 (setq url-cookie-secure-storage
- '((".wuxiaworld.com"
+ '(("www.wikipedia.org"
+  [url-cookie "WMF-Last-Access" "12-Dec-2020" "Wed, 13 Jan 2021 00:00:00 GMT" "/" "www.wikipedia.org" t])
+ (".wikipedia.org"
+  [url-cookie "WMF-Last-Access-Global" "12-Dec-2020" "Wed, 13 Jan 2021 00:00:00 GMT" "/" ".wikipedia.org" t])
+ (".wuxiaworld.com"
   [url-cookie "__cfduid" "d51a2d81b64b730765ced9195d9b137951606230195" "Thu, 24-Dec-20 15:03:15 GMT" "/" ".wuxiaworld.com" t]))
 )
 

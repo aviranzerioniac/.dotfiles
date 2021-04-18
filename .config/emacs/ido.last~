@@ -2,11 +2,18 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/bagofnothing/Documents/Dump/" . "Book/")
+ ("/home/bagofnothing/" . "Documents/")
+ ("/home/bagofnothing/Development/" . "orgs:md/")
+ ("/home/bagofnothing/Documents/" . "Dump/")
  ("/home/bagofnothing/.config/" . "emacs/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/bagofnothing/"
+ "/home/bagofnothing/Documents/Dump/Book/"
+ "/home/bagofnothing/Development/orgs:md/"
  "/home/bagofnothing/.config/emacs/"
 )
 
@@ -17,9 +24,21 @@
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/bagofnothing/Development/python/python-patterns/" (24506 52515 364827 851000) ".coveragerc" "setup.cfg" ".gitignore" "tests/" ".git/" "README.md" "./" "append_output.sh" "patterns/" ".travis.yml" "setup.py" "tox.ini" "Makefile" "requirements-dev.txt" ".#README.md" "../")
+ ("/home/bagofnothing/" (24661 52841 915330 576000) ".anaconda/" ".gtkrc-2.0" ".local/" ".ngrok2/" ".xsession-errors" ".continuum/" ".java/" ".pylint.d/" ".bashrc" ".dmrc" "MEGAsync Downloads/" ".eclipse/" "Development/" ".npm/" "rclone.conf" ".zshrc.orig" ".Xauthority" ".bash_profile" ".zshenv~" ".MakeMKV/" ".xinitrc~" ".SRCINFO" ".empty/" ".condarc" ".zshrc.zni" ".bash_logout" ".jupyter/" ".themes/" ".eclipse-java-config/" ".zshrc" ".zshenv" ".dbus/" ".electron/" ".anydesk/" ".swt/" "./" ".zshrc~" "Calibre Library/" ".config/" ".ssh/" ".profile" ".xinitrc" ".cache/" ".ipython/" ".xbindkeysrc" ".ipynb_checkpoints/" ".w3m/" ".python_history-06622.tmp" ".bundle/" ".putty/" ".esd_auth" "Documents/" ".tragtor/" ".zcompdump-archiso-5.8" ".keras/" ".gnome/" ".mozilla/" "Pictures/" ".ICEauthority" ".electron-gyp/" ".bash_history" ".zoom/" ".gradle/" "Video/" ".gitconfig" ".zcompdump" ".android/" ".yarnrc" ".wget-hsts" ".conda/" ".pki/" ".tooling/" ".fehbg" ".zcompdump-archlinux-5.8" ".texlive/" ".icons/" ".cinnamon/" ".jd/" ".histfile" ".bashrc~" ".megabasterd7.40/" ".p7zip" "AnyDesk/" ".gnome2/" "Music/" ".install4j" "Downloads/" ".uselessThings/" ".gnupg/" "../" ".python_history" ".nv/" ".megabasterd_old_backups/" ".m2/" "Desktop/" "lebenslaufLokesh.pdf" ".mb_chunks_z1JhOCL8TU2EGVTgBD6ausk-tgF9jZR5SPAtbV2kgY0/" "Justice.League.The.Zack.Snyder's.Cut.(2021).(1080p.AMZN.WEB.x265.10bit.SDR.EAC3.5.1.Weasley.HONE)/" "keybind.py~" ".gem/" ".optimus" ".yarn/" ".xsession-errors.old")
 
- ("/home/bagofnothing/Development/orgs:md/" (24505 1981 451075 992000) "eig.pdf~" "#WeekofWisedom.org#" "eig.org" "Projects.md" "WeekofWisedom.org~" "eig.tex~" "randomNotes.org~" "./" "TheBridgetoLucyDunne.org" "randomNotes.org" ".projectile" "eig.tex" "eig.org~" "TheBridgetoLucyDunne.tex~" "eig.pdf" "unixLinuxHandbook.md~" "unixLinuxHandbook.md" "##WeekofWisedom.org##" "../" "TheBridgetoLucyDunne.org~" "randomNotesAlgo.md" "auto/")
+ ("/home/bagofnothing/Documents/Dump/Book/" (24655 30217 139605 511000) "Chapter1fromagirl'sviewpoint.odt" "theEternityofaLifetime.md" "sequenceofEvents.md" "The Lifetimes of Eternities.org" ".#The Lifetimes of Eternities.org" "#The Lifetimes of Eternities.org#" "0.02 eolAugust.md" "0.01 Reality.md" "0.03 onHope.md" "./" "ideastoUse.md" "0.04 afteHopeonEsmeralda.md" "The Lifetimes of Eternities.org~" "0.00 Start.md" "../" "Framework (Regular brainstromings).pdf" "Ending ,UniverseRamblings.pdf" "0.00 Start.md~" "Chapter3Nickheartbreakfriendsasshats.odt")
+
+ ("/home/bagofnothing/Documents/Dump/" (24367 56109 290293 997000) "./" "eigenErklärung.md" "naturalWorld.md" "booksNecessary.md" "intSett.md" "Book/" "frames.md" "../" "TODoos.md")
+
+ ("/home/bagofnothing/Development/orgs:md/" (24536 40023 531309 388000) "uncleBob.org" "eig.pdf~" "#WeekofWisedom.org#" "eig.org" "Projects.md" "WeekofWisedom.org~" "eig.tex~" "randomNotes.org~" "./" "TheBridgetoLucyDunne.org" "randomNotes.org" ".projectile" "uncleBob.org~" "eig.org~" "TheBridgetoLucyDunne.tex~" "unixLinuxHandbook.md~" "unixLinuxHandbook.md" "##WeekofWisedom.org##" "../" "TheBridgetoLucyDunne.org~" "uncleBob.tex~" "randomNotesAlgo.md" "auto/")
+
+ ("/home/bagofnothing/Development/" (24506 29615 787597 351000) "Uni/" "./" "build/" "orgs:md/" "gitlab/" "eclipse/" "github/" "../" "python/")
+
+ ("/home/bagofnothing/Documents/Books/" (24399 31549 488466 970000) "Reddit's Favorite Books/" "DDaCAArm.pdf" "Do-It-Yourself Engineering.pdf" "UNIX and Linux System Administration Handb - Evi Nemeth, Garth Snyder, Trent R. Hein, B.pdf" "Collection/" "./" "the-pragmatic-programmer.pdf" "Randal_E._Bryant_David_R._OHallaron_Computer_SBookZZ.org.pdf" "263973122-security-in-computing-5-e-charles-p-pfleeger-pdf1.pdf" "Dump/" "Meditations A New Translation by Marcus Aurelius, Gregory Hays.epub" "Models_ A Comprehensive Guide to Attracting Women   [MODELS] [Paperback] - Mark Manson, Jul, 2011.epub" "Sandman/" "100 Books To Read Before You Die/" "The Algorithm Design Manual, Steven S. Skiena (1997) [2nd Edition].pdf" "Hofstadter, Dennett - The Mind's I.pdf" "Haruki Murakami/" "Society of Mind.pdf" "../" "LOTR Subs/" "UNIX and Linux System Administration Handb - Evi Nemeth, Garth Snyder, Trent R. Hein, B.epub" "Ryan Holiday - Ego Is The Enemy Ebook/")
+
+ ("/home/bagofnothing/Documents/" (24524 35485 773388 123000) "MEGA-RECOVERYKEY Anon 8txt" "WHX.2.19.zip" "MEGA-RECOVERYKEY Anon 5.txt" "MEGA-RECOVERYKEY Anon 8.txt" "MEGA-RECOVERYKEY Anon 6.txt" "Uni/" "MountedDrives/" "MEGA-RECOVERYKEY Anon 9.txt" "MEGA-RECOVERYKEY Anon 7.txt" "./" "Dump/" "Compedium /" "Encyclopedia of Machine Learning and Data Mining Second Edition.pdf" "Books/" "Untitled Folder/" "MEGA-RECOVERYKEY.txt" "AnyDesk/" "WHX.2.19/" "../" "Python Crash Course A Hands-On, Project-Based Introduction to Programming 2nd Edition.epub")
+
+ ("/home/bagofnothing/Development/python/python-patterns/" (24506 52515 364827 851000) ".coveragerc" "setup.cfg" ".gitignore" "tests/" ".git/" "README.md" "./" "append_output.sh" "patterns/" ".travis.yml" "setup.py" "tox.ini" "Makefile" "requirements-dev.txt" ".#README.md" "../")
 
  ("/usr/share/texmf-dist/tex/latex/tools/" (24501 21607 457893 784000) "hhline.sty" "array.sty" "thcb.sty" "dcolumn.sty" "./" "showkeys.sty" "enumerate.sty" "../" "calc.sty" "bm.sty" ".tex" "rawfonts.sty" "tabularx.sty" "somedefs.sty" "thc.sty" "thb.sty" "array-2016-10-06.sty" "shellesc.sty" "thmb.sty" "s.tex" "trace.sty" "verbtest.tex" "multicol.sty" "r.tex" "theorem.sty" "longtable.sty" "h.tex" "afterpage.sty" "xr.sty" "xspace.sty" "indentfirst.sty" "x.tex" "e.tex" "layout.sty" "thp.sty" "thm.sty" "delarray.sty" "q.tex" "fontsmpl.sty" "varioref-2016-02-16.sty" "varioref.sty" "ftnright.sty" "verbatim.sty" "multicol-2017-04-11.sty" "fontsmpl.tex")
 
@@ -38,8 +57,6 @@
  ("/home/bagofnothing/.config/emacs/" (24502 13394 494559 323000) "nov-places" "eln-cache/" "projectile-bookmarks.eld" ".lsp-session-v1" "init.el" "snippets/" "./" "auto-save-list/" "history" ".cache/" "init.el~" ".dap-breakpoints" "elpa/" "projectile.cache" "recentf" "../")
 
  ("/home/bagofnothing/.config/" (24499 58658 794248 276000) "orage/" "pulse/" "systemd/" "libreoffice/" "rofi/" "i3/" "ghb/" "configstore/" "mimeapps.list" "chromium/" "user-dirs.locale" "wal/" "binstar/" "cmst/" "optimus-manager/" "Unknown Organization/" "xfburn/" "monitors-v1-backup.xml" "zoomus.conf" "kdeglobals" "QtProject.conf" "ibus/" "monitors.xml~" "pikaur.conf" "./" "Thunar/" "dconf/" "user-dirs.dirs" "emacs/" "menus/" "Mousepad/" "procps/" "autostart/" "dolphinrc" "baloofileinformationrc" "enchant/" "onlyoffice/" "neofetch/" "gtk-4.0/" "flacon/" "gtk-2.0/" "pavucontrol.ini" "gtk-3.0/" "rclone/" "spyder-py3/" "picom/" "rclone-browser/" "linear/" "Kitware/" "zathura/" "jgit/" "glib-2.0/" "discord/" "session/" "pamac/" "google-chrome/" "Notepadqq/" "GIMP/" "vlc/" "monitors.xml" "../" "nemo/" "ristretto/" "vivaldi/" "qtile/" "calibre/" "marlin/" "xfce4/")
-
- ("/home/bagofnothing/" (24502 13393 77892 621000) ".anaconda/" ".gtkrc-2.0" ".local/" ".ngrok2/" ".xsession-errors" ".continuum/" ".java/" ".pylint.d/" ".bashrc" ".dmrc" "MEGAsync Downloads/" ".eclipse/" "Development/" ".npm/" "rclone.conf" ".Xauthority" ".bash_profile" ".MakeMKV/" ".condarc" ".bash_logout" ".jupyter/" ".themes/" ".eclipse-java-config/" ".dbus/" ".electron/" ".anydesk/" ".swt/" "./" "Calibre Library/" ".config/" ".ssh/" ".profile" ".xinitrc" ".cache/" ".ipython/" ".xbindkeysrc" ".ipynb_checkpoints/" ".w3m/" ".python_history-06622.tmp" ".putty/" ".esd_auth" "Documents/" ".tragtor/" ".keras/" ".gnome/" ".mozilla/" "Pictures/" ".ICEauthority" ".electron-gyp/" ".bash_history" ".zoom/" ".gradle/" "Video/" ".gitconfig" ".yarnrc" ".wget-hsts" ".conda/" ".pki/" ".tooling/" ".fehbg" ".icons/" ".cinnamon/" ".jd/" ".bashrc~" ".p7zip" "AnyDesk/" ".gnome2/" "Music/" ".install4j" "Downloads/" ".uselessThings/" ".gnupg/" "../" ".python_history" ".nv/" ".m2/" "Desktop/" "keybind.py~" ".gem/" ".optimus" ".yarn/" ".xsession-errors.old")
 )
 
 ;; ----- ido-unc-hosts-cache -----

@@ -1,0 +1,2 @@
+;;; Generated package description from /home/bagofnothing/.config/emacs/elpa/ht-20210119.741/ht.el  -*- no-byte-compile: t -*-
+(define-package "ht" "20210119.741" "The missing hash table library for Emacs" '((dash "2.12.0")) :stars '(#("137" 0 3 (font-lock-face paradox-star-face))) :commit "c4c1be487d6ecb353d07881526db05d7fc90ea87" :authors '(("Wilfred Hughes" . "me@wilfred.me.uk")) :maintainer '("Wilfred Hughes" . "me@wilfred.me.uk") :keywords '("hash table" "hash map" "hash"))
