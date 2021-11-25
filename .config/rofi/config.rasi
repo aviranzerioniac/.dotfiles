@@ -1,6 +1,6 @@
 configuration {
-	modi: "window,run,ssh,drun";
-	width: 15;
+	modi: "run,drun";
+	width: 12;
 	lines: 5;
 	columns: 1;
 	font: "Source Code Pro 10";

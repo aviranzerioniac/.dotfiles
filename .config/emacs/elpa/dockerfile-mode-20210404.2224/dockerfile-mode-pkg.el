@@ -1,2 +1,0 @@
-;;; Generated package description from /home/bagofnothing/.config/emacs/elpa/dockerfile-mode-20210404.2224/dockerfile-mode.el  -*- no-byte-compile: t -*-
-(define-package "dockerfile-mode" "20210404.2224" "Major mode for editing Docker's Dockerfiles" '((emacs "24")) :stars '(#("318" 0 3 (font-lock-face paradox-star-face))) :commit "ad06a41259ff2961d603bf23a3a8fbd22dde2161" :url "https://github.com/spotify/dockerfile-mode")

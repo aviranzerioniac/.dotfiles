@@ -25,6 +25,7 @@ ZSH=/usr/share/oh-my-zsh/
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="random"
+ZSH_THEME_RANDOM_QUIET=true
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -98,7 +99,7 @@ plugins=(git)
  if [[ -n $SSH_CONNECTION ]]; then
    export EDITOR='emacsclient -t'
  else
-   export EDITOR='nano'
+   export EDITOR='emacsclient -t'
  fi
 
 # Compilation flags
@@ -109,7 +110,6 @@ plugins=(git)
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 #
- # Example aliases
 
  alias zshconfig="emacsclient -t ~/.zshrc"
  alias ohmyzsh="emacsclient -t ~/.oh-my-zsh"
@@ -129,8 +129,8 @@ export HISTCONTROL=ignoreboth
 alias update='sudo pacman -Syu' # too frequent and too cubersome
 alias remove='sudo pacman -Rcs' # uninstall
 alias instl='sudo pacman -S' # install
-alias pinstl='pamac install' # install using pamac
-alias pupdate='pamac checkupdates; pamac update;' #update using pamac
+alias tinstl='trizen -S' # install using trizen
+alias tupdate='trizen -Syu' #update using trizen
 alias unlock="sudo rm /var/lib/pacman/db.lck"    # remove pacman lock
 alias cleanup='sudo pacman -Rns $(pacman -Qtdq)' # remove orphaned packages
 
@@ -188,9 +188,21 @@ alias reboot="systemctl reboot"
 # Emacs fluffs
 alias sumacs="sudo emacsclient -t"
 alias macs="emacsclient -t"
-alias stop="systemctl --user stop emacs"
-alias start="systemctl --user start emacs"
-alias reload="systemctl --user daemon-reload"
+
+
+# systemd aliasiasess
+
+# User
+alias ustop="systemctl --user stop"
+alias ustart="systemctl --user start"
+alias ureload="systemctl --user daemon-reload"
+alias uenable="systemctl --user enable"
+
+# System
+alias stop="systemctl stop"
+alias start="systemctl start"
+alias reload="systemctl restart"
+alias enable="systemctl enable"
 
 
 ZSH_CACHE_DIR=$HOME/.cache/oh-my-zsh

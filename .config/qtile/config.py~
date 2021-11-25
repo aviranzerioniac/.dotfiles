@@ -1,10 +1,10 @@
 ########################################
 ##                                    ##
 ##                                    ##
-##          qtile config              ##
+##          Qtile config              ##
 ##                                    ##
 ##                                    ##
-## 2020 @ Lokesh Dhakal               ##
+##        2019 @ Lokesh Dhakal        ##
 ##                                    ##
 ##                                    ##
 ########################################
@@ -62,12 +62,12 @@ keys = [
     # multiple stack panes
     Key ([mod, "shift"], "Return", lazy.layout.toggle_split(),
         desc="Toggle between split and unsplit sides of stack"),
-    Key ([mod], "Return", lazy.spawn(terminal), desc="Launch terminal"),
+    Key ([mod], "Return", lazy.spawn("alacritty"), desc="Launch terminal"),
 
     # Toggle between different layouts as defined below
     Key ([mod], "Tab", lazy.next_layout(), desc="Toggle between layouts"),
     Key ([mod], "w", lazy.window.kill(), desc="Kill focused window"),
-
+1
     # Essentials
     Key ([mod, "control"], "r", lazy.restart(), desc="Restart Qtile"),
     Key ([mod, "control"], "q", lazy.shutdown(), desc="Shutdown Qtile"),
@@ -77,6 +77,8 @@ keys = [
     Key ([mod], "n", lazy.spawn('nemo'), desc="Open File Browser"),
     Key ([mod], "c", lazy.spawn("vivaldi-stable"), desc="Open Web Browser"),
     Key ([mod], "e", lazy.spawn('emacsclient -c'), desc="Open Emacs"),
+    Key ([mod], "i", lazy.spawn("intellij-idea-ultimate-edition"), desc="Intellijent"),
+    Key ([mod], "m", lazy.spawn("code"), desc="VSCode"),
 
     # Media Control
 

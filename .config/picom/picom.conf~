@@ -109,11 +109,10 @@ shadow-ignore-shaped = false;
 opacity-rule = [
   "85:class_g = 'URxvt' && focused",
   "70:class_g = 'URxvt' && !focused",
-  "100:fullscreen",
 ];
 
 inactive-opacity = 0.65;
-active-opacity = 1.0;
+active-opacity = 0.4;
 frame-opacity =  1.0;
 inactive-opacity-override = false;
 

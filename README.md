@@ -14,6 +14,14 @@ Further
 changes will be focused on configuring my emacs configuration to the best
 possible config.
 
+
+[Alacritty](https://github.com/alacritty/alacritty) theme through
+[Gogh](https://github.com/Mayccoll/Gogh)
+
+Use the code in terminal
+
+`bash -c "$(wget -qO- https://git.io/vQgMr)"`
+
 ## Screenshots
 
 ![Browser](https://i.imgur.com/JVL9alD.png "Vivaldi")

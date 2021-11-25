@@ -1394,14 +1394,88 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(ansi-color-faces-vector
+   [default bold shadow italic underline success warning error])
+ '(ansi-color-names-vector
+   ["#0D0E16" "#D83441" "#79D836" "#D8B941" "#3679D8" "#8041D8" "#36D8BD" "#CEDBE5"])
+ '(awesome-tray-mode-line-active-color "#2fafff")
+ '(awesome-tray-mode-line-inactive-color "#323232")
+ '(company-show-quick-access t nil nil "Customized with use-package company")
  '(cursor-type 'bar)
  '(custom-safe-themes
-   '("8e959d5a6771b4d1e2177263e1c1e62c62c0f848b265e9db46f18754ea1c1998" "76bfa9318742342233d8b0b42e824130b3a50dcc732866ff8e47366aed69de11" default))
+   '("e8df30cd7fb42e56a4efc585540a2e63b0c6eeb9f4dc053373e05d774332fc13" "da186cce19b5aed3f6a2316845583dbee76aea9255ea0da857d1c058ff003546" "a9a67b318b7417adbedaab02f05fa679973e9718d9d26075c6235b1f0db703c8" "1d5e33500bc9548f800f9e248b57d1b2a9ecde79cb40c0b1398dec51ee820daf" "97db542a8a1731ef44b60bc97406c1eb7ed4528b0d7296997cbb53969df852d6" "cf922a7a5c514fad79c483048257c5d8f242b21987af0db813d3f0b138dfaf53" "b0e446b48d03c5053af28908168262c3e5335dcad3317215d9fdeb8bac5bacf9" "8e959d5a6771b4d1e2177263e1c1e62c62c0f848b265e9db46f18754ea1c1998" "76bfa9318742342233d8b0b42e824130b3a50dcc732866ff8e47366aed69de11" default))
+ '(exwm-floating-border-color "#0F1019")
+ '(fci-rule-color "#767676")
+ '(flymake-error-bitmap '(flymake-double-exclamation-mark modus-theme-fringe-red))
+ '(flymake-note-bitmap '(exclamation-mark modus-theme-fringe-cyan))
+ '(flymake-warning-bitmap '(exclamation-mark modus-theme-fringe-yellow))
+ '(highlight-tail-colors
+   ((("#172219" "color-113" "green")
+	 . 0)
+	(("#112226" "color-79" "cyan")
+	 . 20)))
+ '(hl-todo-keyword-faces
+   '(("HOLD" . "#cfdf30")
+	 ("TODO" . "#feacd0")
+	 ("NEXT" . "#b6a0ff")
+	 ("THEM" . "#f78fe7")
+	 ("PROG" . "#00d3d0")
+	 ("OKAY" . "#4ae8fc")
+	 ("DONT" . "#80d200")
+	 ("FAIL" . "#ff8059")
+	 ("BUG" . "#ff8059")
+	 ("DONE" . "#44bc44")
+	 ("NOTE" . "#f0ce43")
+	 ("KLUDGE" . "#eecc00")
+	 ("HACK" . "#eecc00")
+	 ("TEMP" . "#ffcccc")
+	 ("FIXME" . "#ff9977")
+	 ("XXX+" . "#f4923b")
+	 ("REVIEW" . "#6ae4b9")
+	 ("DEPRECATED" . "#bfd9ff")))
+ '(ibuffer-deletion-face 'modus-theme-mark-del)
+ '(ibuffer-filter-group-name-face 'modus-theme-mark-symbol)
+ '(ibuffer-marked-face 'modus-theme-mark-sel)
+ '(ibuffer-title-face 'modus-theme-pseudo-header)
  '(inhibit-startup-screen t)
  '(ivy-posframe-mode t nil (ivy-posframe))
+ '(jdee-db-active-breakpoint-face-colors (cons "#0F1019" "#D85F00"))
+ '(jdee-db-requested-breakpoint-face-colors (cons "#0F1019" "#79D836"))
+ '(jdee-db-spec-breakpoint-face-colors (cons "#0F1019" "#767676"))
+ '(objed-cursor-color "#D83441")
  '(package-selected-packages
-   '(all-the-icons avy dash dash-functional esxml ivy lsp-mode lsp-treemacs markdown-mode posframe projectile system-packages treemacs latex-preview-pane pyenv-mode-auto ht gcmh org-edit-latex company-shell flyspell-correct-popup treemacs-all-the-icons all-the-icons-ivy-rich flycheck-grammarly flycheck-pycheckers company-posframe flycheck-posframe auto-dictionary ivy-posframe org-bullets toc-org org-plus-contrib react-snippets ivy-yasnippet yasnippet-snippets switch-window hungry-delete org-re-reveal counsel-projectile expand-region pdf-tools webpaste smartparens rainbow-delimiters lorem-ipsum flycheck all-the-icons-ivy ivy-rich ivy-pass counsel wiki-summary which-key undo-tree rainbow-mode paradox move-text gnuplot-mode gnuplot electric-operator aggressive-indent major-mode-hydra highlight-indent-guides flyspell-correct-ivy nov editorconfig dired-subtree dired-narrow ibuffer-projectile engine-mode alert yarn-mode sql-indent pyvenv pyenv-mode py-isort lsp-python-ms lsp-pyright blacken lua-mode company-math company-auctex auctex json-mode lsp-java dockerfile-mode csv-mode cmake-ide cmake-font-lock cmake-mode google-c-style ccls solaire-mode doom-modeline dashboard use-package-ensure-system-package lsp-ui doom-themes delight dap-mode bug-hunter))
- '(paradox-github-token t))
+   '(yaml-mode pylint all-the-icons avy dash dash-functional esxml ivy lsp-mode lsp-treemacs markdown-mode posframe projectile system-packages treemacs latex-preview-pane pyenv-mode-auto ht gcmh org-edit-latex company-shell flyspell-correct-popup treemacs-all-the-icons all-the-icons-ivy-rich flycheck-grammarly flycheck-pycheckers company-posframe flycheck-posframe auto-dictionary ivy-posframe org-bullets toc-org org-plus-contrib react-snippets ivy-yasnippet yasnippet-snippets switch-window hungry-delete org-re-reveal counsel-projectile expand-region pdf-tools webpaste smartparens rainbow-delimiters lorem-ipsum flycheck all-the-icons-ivy ivy-rich ivy-pass counsel wiki-summary which-key undo-tree rainbow-mode paradox move-text gnuplot-mode gnuplot electric-operator aggressive-indent major-mode-hydra highlight-indent-guides flyspell-correct-ivy nov editorconfig dired-subtree dired-narrow ibuffer-projectile engine-mode alert yarn-mode sql-indent pyvenv pyenv-mode py-isort lsp-python-ms lsp-pyright blacken lua-mode company-math company-auctex auctex json-mode lsp-java dockerfile-mode csv-mode cmake-ide cmake-font-lock cmake-mode google-c-style ccls solaire-mode doom-modeline dashboard use-package-ensure-system-package lsp-ui doom-themes delight dap-mode bug-hunter))
+ '(paradox-github-token t)
+ '(pdf-view-midnight-colors (cons "#CEDBE5" "#0D0E16"))
+ '(rustic-ansi-faces
+   ["#0D0E16" "#D83441" "#79D836" "#D8B941" "#3679D8" "#8041D8" "#36D8BD" "#CEDBE5"])
+ '(vc-annotate-background "#0D0E16")
+ '(vc-annotate-background-mode nil)
+ '(vc-annotate-color-map
+   (list
+	(cons 20 "#79D836")
+	(cons 40 "#98cd39")
+	(cons 60 "#b8c33d")
+	(cons 80 "#D8B941")
+	(cons 100 "#d89b2b")
+	(cons 120 "#d87d15")
+	(cons 140 "#D85F00")
+	(cons 160 "#ba5548")
+	(cons 180 "#9d4b90")
+	(cons 200 "#8041D8")
+	(cons 220 "#9d3ca5")
+	(cons 240 "#ba3873")
+	(cons 260 "#D83441")
+	(cons 280 "#bf444e")
+	(cons 300 "#a7555b")
+	(cons 320 "#8e6568")
+	(cons 340 "#767676")
+	(cons 360 "#767676")))
+ '(vc-annotate-very-old-color nil)
+ '(xterm-color-names
+   ["#000000" "#ff8059" "#44bc44" "#eecc00" "#2fafff" "#feacd0" "#00d3d0" "#a8a8a8"])
+ '(xterm-color-names-bright
+   ["#181a20" "#f4923b" "#80d200" "#cfdf30" "#79a8ff" "#f78fe7" "#4ae8fc" "#ffffff"]))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

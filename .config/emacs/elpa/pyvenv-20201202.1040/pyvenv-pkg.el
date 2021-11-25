@@ -1,2 +1,0 @@
-;;; Generated package description from /home/bagofnothing/.config/emacs/elpa/pyvenv-20201202.1040/pyvenv.el  -*- no-byte-compile: t -*-
-(define-package "pyvenv" "20201202.1040" "Python virtual environment interface" 'nil :stars '(#("170" 0 3 (font-lock-face paradox-star-face))) :commit "0bf4b87068e9040fc99afa85af1992247dd7aacd" :keywords '("python" "virtualenv" "tools") :authors '(("Jorgen Schaefer" . "contact@jorgenschaefer.de")) :maintainer '("Jorgen Schaefer" . "contact@jorgenschaefer.de") :url "http://github.com/jorgenschaefer/pyvenv")

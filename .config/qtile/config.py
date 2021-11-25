@@ -1,10 +1,10 @@
 ########################################
 ##                                    ##
 ##                                    ##
-##          qtile config              ##
+##          Qtile config              ##
 ##                                    ##
 ##                                    ##
-## 2020 @ Lokesh Dhakal               ##
+##        2019 @ Lokesh Dhakal        ##
 ##                                    ##
 ##                                    ##
 ########################################
@@ -53,7 +53,6 @@ keys = [
     Key ([mod, "control"], "j", lazy.layout.grow_down(),
         desc="Grow window down"),
     Key ([mod, "control"], "k", lazy.layout.grow_up(), desc="Grow window up"),
-
     Key ([mod], "n", lazy.layout.normalize(), desc="Reset all window sizes"),
 
     # Toggle between split and unsplit sides of stack.
@@ -62,7 +61,7 @@ keys = [
     # multiple stack panes
     Key ([mod, "shift"], "Return", lazy.layout.toggle_split(),
         desc="Toggle between split and unsplit sides of stack"),
-    Key ([mod], "Return", lazy.spawn(terminal), desc="Launch terminal"),
+    Key ([mod], "Return", lazy.spawn("alacritty"), desc="Launch terminal"),
 
     # Toggle between different layouts as defined below
     Key ([mod], "Tab", lazy.next_layout(), desc="Toggle between layouts"),
@@ -77,6 +76,8 @@ keys = [
     Key ([mod], "n", lazy.spawn('nemo'), desc="Open File Browser"),
     Key ([mod], "c", lazy.spawn("vivaldi-stable"), desc="Open Web Browser"),
     Key ([mod], "e", lazy.spawn('emacsclient -c'), desc="Open Emacs"),
+    Key ([mod], "i", lazy.spawn("intellij-idea-ultimate-edition"), desc="Intellijent"),
+    Key ([mod], "m", lazy.spawn("code"), desc="VSCode"),
 
     # Media Control
 
@@ -87,7 +88,6 @@ keys = [
    ## Key ([], "XF86AudioNext", lazy.spawn("playerctl next"),),
    ## Key ([], "XF86AudioPrev", lazy.spawn("playerctl previous"),),
 ]
-
 
 group_names = [("", {'layout': 'bsp'}),
                ("", {'layout': 'max'}),
@@ -135,8 +135,7 @@ widget_defaults = dict(
 extension_defaults = widget_defaults.copy()
 
 screens = [
-    Screen(
-        top=bar.Bar(
+    Screen(        top=bar.Bar(
             [
                 widget.GroupBox(hide_unused='True', rounded='True', active = "5e81ac", inactive = "b48ead", this_current_screen_border = "bf616a", highlight_method = "line", highlight_color=["2e3440", "2e3440"], center_aligned=True,),
                 widget.WindowName(show_state='True', markup='True'),

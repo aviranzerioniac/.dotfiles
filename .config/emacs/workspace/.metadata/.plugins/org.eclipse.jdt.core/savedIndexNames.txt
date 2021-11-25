@@ -1,7 +1,0 @@
-INDEX VERSION 1.131+/home/bagofnothing/.config/emacs/workspace/.metadata/.plugins/org.eclipse.jdt.core
-3842426239.index
-1187230866.index
-2475122447.index
-3605526904.index
-120584473.index
-3413681942.index

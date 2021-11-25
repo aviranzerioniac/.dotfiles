@@ -1,0 +1,2 @@
+#!/bin/sh
+feh --no-fehbg --bg-scale '/home/bagofnothing/Pictures/Walls/PXL_20210917_150425148.jpg'

@@ -1,2 +1,0 @@
-;;; Generated package description from /home/bagofnothing/.config/emacs/elpa/webpaste-20210306.1215/webpaste.el  -*- no-byte-compile: t -*-
-(define-package "webpaste" "20210306.1215" "Paste to pastebin-like services" '((emacs "24.4") (request "0.2.0") (cl-lib "0.5")) :stars '(#("43" 0 2 (font-lock-face paradox-star-face))) :commit "87ea8b15f417037bb1a46ac849b2f60f08c0bfeb" :authors '(("Elis \"etu\" Hirwing")) :maintainer '("Elis \"etu\" Hirwing") :keywords '("convenience" "comm" "paste") :url "https://github.com/etu/webpaste.el")

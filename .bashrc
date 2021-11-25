@@ -7,7 +7,7 @@
 
 PS1='[\W]=> '
 
-export PATH=/usr/bin:/home/bagofnothing/.gem/ruIby/2.7.0/bin
+export PATH=/usr/bin:/home/bagofnothing/.gem/ruby/2.7.0/bin
 
 ### Alias for Tasks
 
@@ -80,9 +80,19 @@ alias newtag='git tag -a'
 alias ssn="systemctl poweroff"
 alias reboot="systemctl reboot"
 
-# Emacs fluff
+# Emacs
 alias sumacs="sudo emacsclient -t"
 alias macs="emacsclient -t"
-alias stop="systemctl --user stop emacs"
-alias start="systemctl --user start emacs"
-alias reload="systemctl --user daemon-reload"
+
+# systemd aliasiasess
+# User
+alias ustop="systemctl --user stop"
+alias ustart="systemctl --user start"
+alias ureload="systemctl --user daemon-reload"
+alias uenable="systemctl --user enable"
+
+# System
+alias stop="systemctl stop"
+alias start="systemctl start"
+alias reload="systemctl restart"
+alias enable="systemctl enable"
