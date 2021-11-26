@@ -110,6 +110,7 @@ plugins=(git)
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 #
+ # Example aliases
 
  alias zshconfig="emacsclient -t ~/.zshrc"
  alias ohmyzsh="emacsclient -t ~/.oh-my-zsh"
@@ -188,21 +189,19 @@ alias reboot="systemctl reboot"
 # Emacs fluffs
 alias sumacs="sudo emacsclient -t"
 alias macs="emacsclient -t"
+alias stop="systemctl --user stop emacs"
+alias start="systemctl --user start emacs"
+alias reload="systemctl --user daemon-reload"
 
+# Alacritty theme through Gogh, if I feel like it
+function gogh() {
+	bash -c "$(wget -qO- https://git.io/vQgMr)"
+}
 
-# systemd aliasiasess
-
-# User
-alias ustop="systemctl --user stop"
-alias ustart="systemctl --user start"
-alias ureload="systemctl --user daemon-reload"
-alias uenable="systemctl --user enable"
-
-# System
-alias stop="systemctl stop"
-alias start="systemctl start"
-alias reload="systemctl restart"
-alias enable="systemctl enable"
+# Spotify hidpi & no holdup
+function spo () {
+	nohup spotify --force-device-scale-factor=2 &
+}
 
 
 ZSH_CACHE_DIR=$HOME/.cache/oh-my-zsh
