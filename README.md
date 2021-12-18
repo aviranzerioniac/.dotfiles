@@ -1,35 +1,36 @@
 ## My Personal dots
 
-This is a backup of my dots. As much as possible, the configuration will always remain barebones.
+This mostly has configurations for many Window Managers from when
+I was still searching for one. New additions are primarily
+keybindings and optimizations here and there. I'd like to believe that the way it is now,
+I don't have make drastic changes but keep on polishing things.
 
 ## Current State
 
-I have finally made a jump to qtile and seems like I'll be staying here for some time.
-I do have a barebones xfce install, which might need to be cleaned in the future.
-I was using either [Spacemacs](https://www.spacemacs.org) or
-[Doom](https://github.com/hlissner/doom-emacs) for quite some time.
-The emacs config has finally been worked on enough that it
-seems to work good enough for me, at least most of the times.
-Further
-changes will be focused on configuring my emacs configuration to the best
-possible config.
+I keep XFCE for the sole purpose of not making people who want to use my laptop
+for a few minutes scared of whatever I am running.
+Qtile is the one, which takes most of my time as I feel quite at home with it.
+Emacs for anything I write, and python, or haskell, or C/C++.
+For Java, I use IntelliJ, we use it for some projects, and I started loving it
+after a few changes here and there.
 
 
-[Alacritty](https://github.com/alacritty/alacritty) theme through
-[Gogh](https://github.com/Mayccoll/Gogh)
+[Alacritty](https://github.com/alacritty/alacritty) is themed through [Gogh](https://github.com/Mayccoll/Gogh).
 
-Use the code in terminal
+You can just use the code in terminal
 
 `bash -c "$(wget -qO- https://git.io/vQgMr)"`
 
+
+
 ## Screenshots
 
-![Browser](https://i.imgur.com/JVL9alD.png "Vivaldi")
+![Browser](https://imgur.com/aqbOPEC "Vivaldi")
 
-![Prod](https://i.imgur.com/TO4sRVY.png "Zathura (scripts/books) + emacs (notes)")
+![Tiling](https://imgur.com/mKXtC9S "Zathura (scripts/books) + emacs (notes)")
 
-![Emacs](https://i.imgur.com/pTsaUfK.png "Emacs Dashboard")
+![Scripts](https://imgur.com/TO4sRVY "Old image of how I normally use emacd + zathura")
 
-![Normal](https://i.imgur.com/xM26pwh.png "~~Copying~~ Programming")
+![Dev](https://imgur.com/s9jS7JG "IntelliJ")
 
-![Empty](https://i.imgur.com/OSFwbS1.png "Empty Screen")
+![Empty](https://imgur.com/ikq0VEJ "Empty Screen")

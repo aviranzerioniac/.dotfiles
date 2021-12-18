@@ -1,21 +1,17 @@
 #!/bin/sh
 
-function run {
-    if ! pgrep -f $1 ;
-    then
-        $@&
-    fi
-}
-# Desktop essentials
+# notification server
+deadd-notification-center &
 
-## emacs --daemon & # Start emacs as a daemon, useful for when systemd fucks you up
-~/.fehbg & # Wallpaper from previous session with feh
-#numlockx & # NUmlock on restart
+# auto start redshift
+redshift -l 49.8728:8.6512 &
+
+# restore background with feh
+~/.fehbg &
+
+# picom
+picom -cCGfF -o 0.38 -O 200 -I 200 -t 0 -l 0 -r 3 -D2 -m 0.88 --experimental-backend &
+
+numlockx & # numlock
+
 setxkbmap -layout de -option ctrl:nocaps # de + caps -> shift
-# setxkbmap de & # changing keymap to german, if it has somehow failed
-picom -b & # compositor for transparency
-
-## Mounting drives with rclone
-rclone mount myDump: "/home/bagofnothing/Documents/MountedDrives/Mount #1/" &
-rclone mount sDrive: "/home/bagofnothing/Documents/MountedDrives/Mount #2/" &
-rclone mount driveLinks: "/home/bagofnothing/Documents/MountedDrives/Mount #3/" &
