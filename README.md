@@ -25,7 +25,7 @@ You can just use the code in terminal
 
 ## Screenshots
 
-[Emacs/Zathura/Nano] (https://imgur.com/mKXtC9S)
+[Emacs/Zathura/Nano] (https://i.imgur.com/mKXtC9S.png)
 ![Tiling]((https://imgur.com/mKXtC9S) "Zathura (scripts/books) + emacs (notes)")
 
 ![Scripts](https://imgur.com/TO4sRVY "Old image of how I normally use emacd + zathura")
