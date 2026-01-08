@@ -27,7 +27,7 @@ You can just use the code in terminal
 
 ![Browser](https://imgur.com/aqbOPEC "Vivaldi")
 
-![Tiling](https://imgur.com/mKXtC9S "Zathura (scripts/books) + emacs (notes)")
+![Tiling]((https://imgur.com/mKXtC9S) "Zathura (scripts/books) + emacs (notes)")
 
 ![Scripts](https://imgur.com/TO4sRVY "Old image of how I normally use emacd + zathura")
 
