@@ -24,12 +24,8 @@ You can just use the code in terminal
 
 
 ## Screenshots
-
-[Emacs/Zathura/Nano] (https://i.imgur.com/mKXtC9S.png)
-![Tiling]((https://imgur.com/mKXtC9S) "Zathura (scripts/books) + emacs (notes)")
-
-![Scripts](https://imgur.com/TO4sRVY "Old image of how I normally use emacd + zathura")
-
-![Dev](https://imgur.com/s9jS7JG "IntelliJ")
-
-![Empty](https://imgur.com/ikq0VEJ "Empty Screen")
+<img width="1366" height="768" alt="Vivaldi as the Browser" src="https://github.com/user-attachments/assets/8dd1cda6-ed05-431d-888f-5c442d1ecfeb" />
+<img width="1366" height="768" alt="Emacs with own config" src="https://github.com/user-attachments/assets/9ae2fa3a-d71b-4e4e-bb5b-ec3c2ef92c35" />
+<img width="1366" height="768" alt="Tilled WM" src="https://github.com/user-attachments/assets/4df275ff-e51a-473f-b1f2-610d62600819" />
+<img width="1366" height="768" alt="Was using Intellij Then" src="https://github.com/user-attachments/assets/9559e1c9-020b-4565-be27-b1328f60b927" />
+<img width="1366" height="768" alt="Emacs / Zathura / Nano" src="https://github.com/user-attachments/assets/5616cf6e-ffa3-4646-83ac-39a899851056" />
